@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T02:30:37.907132+00:00",
+  "generated_at": "2026-09-29T02:59:03.663851+00:00",
   "parlay": {
     "n_tickets": 103,
     "n_pending": 1,
@@ -4080,8 +4080,8 @@
         "date": "2026-09-29",
         "type": "2串1",
         "stake": 13.93,
-        "potential": 74.01,
-        "total_odds": 5.31,
+        "potential": 74.65,
+        "total_odds": 5.36,
         "odds_source": null,
         "note": "待赛",
         "won": false,
@@ -4098,7 +4098,7 @@
             "away": "中国女",
             "sel": "home",
             "score": null,
-            "odds": 2.3,
+            "odds": 2.31,
             "hit": null
           },
           {
@@ -4107,7 +4107,7 @@
             "away": "韩国女",
             "sel": "home",
             "score": null,
-            "odds": 2.31,
+            "odds": 2.32,
             "hit": null
           }
         ]
@@ -25072,8 +25072,8 @@
             "date": "2026-09-29",
             "type": "2串1",
             "stake": 13.93,
-            "potential": 74.01,
-            "total_odds": 5.31,
+            "potential": 74.65,
+            "total_odds": 5.36,
             "odds_source": null,
             "note": "待赛",
             "won": false,
@@ -25090,7 +25090,7 @@
                 "away": "中国女",
                 "sel": "home",
                 "score": null,
-                "odds": 2.3,
+                "odds": 2.31,
                 "hit": null
               },
               {
@@ -25099,7 +25099,7 @@
                 "away": "韩国女",
                 "sel": "home",
                 "score": null,
-                "odds": 2.31,
+                "odds": 2.32,
                 "hit": null
               }
             ]
