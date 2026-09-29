@@ -1,7 +1,7 @@
 {
-  "current_streak": 2,
+  "current_streak": 9,
   "total_losses": 616,
-  "total_wins": 685,
+  "total_wins": 692,
   "halted": false,
   "halt_date": "",
   "tier": 0,
@@ -10,55 +10,6 @@
   "weekly_pnl": 0.0,
   "weekly_start": "2026-09-28",
   "history": [
-    {
-      "date": "2026-09-15",
-      "won": true,
-      "pnl": 0.0,
-      "streak": 4,
-      "bankroll": 3673.29
-    },
-    {
-      "date": "2026-09-15",
-      "won": true,
-      "pnl": 0.0,
-      "streak": 5,
-      "bankroll": 3673.29
-    },
-    {
-      "date": "2026-09-15",
-      "won": false,
-      "pnl": 0.0,
-      "streak": -1,
-      "bankroll": 3673.29
-    },
-    {
-      "date": "2026-09-15",
-      "won": true,
-      "pnl": 0.0,
-      "streak": 1,
-      "bankroll": 3673.29
-    },
-    {
-      "date": "2026-09-15",
-      "won": true,
-      "pnl": 197.5,
-      "streak": 2,
-      "bankroll": 3673.29
-    },
-    {
-      "date": "2026-09-15",
-      "won": true,
-      "pnl": 0.0,
-      "streak": 3,
-      "bankroll": 3870.79
-    },
-    {
-      "date": "2026-09-15",
-      "won": false,
-      "pnl": 0.0,
-      "streak": -1,
-      "bankroll": 3870.79
-    },
     {
       "date": "2026-09-15",
       "won": true,
@@ -1408,6 +1359,55 @@
       "won": true,
       "pnl": 0.0,
       "streak": 2,
+      "bankroll": 3870.79
+    },
+    {
+      "date": "2026-09-30",
+      "won": true,
+      "pnl": 0.0,
+      "streak": 3,
+      "bankroll": 3870.79
+    },
+    {
+      "date": "2026-09-30",
+      "won": true,
+      "pnl": 0.0,
+      "streak": 4,
+      "bankroll": 3870.79
+    },
+    {
+      "date": "2026-09-30",
+      "won": true,
+      "pnl": 0.0,
+      "streak": 5,
+      "bankroll": 3870.79
+    },
+    {
+      "date": "2026-09-30",
+      "won": true,
+      "pnl": 0.0,
+      "streak": 6,
+      "bankroll": 3870.79
+    },
+    {
+      "date": "2026-09-30",
+      "won": true,
+      "pnl": 0.0,
+      "streak": 7,
+      "bankroll": 3870.79
+    },
+    {
+      "date": "2026-09-30",
+      "won": true,
+      "pnl": 0.0,
+      "streak": 8,
+      "bankroll": 3870.79
+    },
+    {
+      "date": "2026-09-30",
+      "won": true,
+      "pnl": 0.0,
+      "streak": 9,
       "bankroll": 3870.79
     }
   ]

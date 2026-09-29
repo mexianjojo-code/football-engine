@@ -1,14 +1,14 @@
 {
   "generated_at": "2026-09-29",
-  "total_matches": 902,
+  "total_matches": 909,
   "date_range": [
     "2026-07-19",
     "2026-09-29"
   ],
   "overall": {
-    "hit_rate": 0.5333,
-    "brier_final": 0.5909,
-    "brier_model": 0.6222,
+    "hit_rate": 0.5369,
+    "brier_final": 0.5888,
+    "brier_model": 0.62,
     "brier_market": 0.5773,
     "brier_djyy": 0.646
   },
@@ -879,21 +879,21 @@
     },
     {
       "date": "2026-09-29",
-      "n": 7,
-      "hits": 5,
-      "hit_rate": 0.7143,
-      "cum_hit_rate": 0.5333,
-      "brier_final": 0.5886,
-      "brier_model": 0.6007,
+      "n": 14,
+      "hits": 12,
+      "hit_rate": 0.8571,
+      "cum_hit_rate": 0.5369,
+      "brier_final": 0.4538,
+      "brier_model": 0.4695,
       "brier_market": null,
       "brier_djyy": null,
       "pnl": 0.0
     }
   ],
   "rolling7": {
-    "n": 72,
-    "hit_rate": 0.6528,
-    "brier_final": 0.539,
+    "n": 79,
+    "hit_rate": 0.6835,
+    "brier_final": 0.5197,
     "pnl": 0.0
   },
   "prev7": {
@@ -902,7 +902,7 @@
     "brier_final": 0.5463,
     "pnl": 0.0
   },
-  "verdict": "命中率提升 +14pt",
+  "verdict": "命中率提升 +17pt",
   "by_league": [
     {
       "layer": "西甲",
@@ -965,6 +965,12 @@
       "brier_final": 0.5331
     },
     {
+      "layer": "欧国联",
+      "n": 37,
+      "hit_rate": 0.6757,
+      "brier_final": 0.5008
+    },
+    {
       "layer": "德甲",
       "n": 36,
       "hit_rate": 0.5,
@@ -987,12 +993,6 @@
       "n": 30,
       "hit_rate": 0.3333,
       "brier_final": 0.713
-    },
-    {
-      "layer": "欧国联",
-      "n": 30,
-      "hit_rate": 0.6,
-      "brier_final": 0.5432
     },
     {
       "layer": "巴甲",
@@ -1178,21 +1178,21 @@
   "by_odds_band": [
     {
       "layer": "1.5-2.0",
-      "n": 335,
-      "hit_rate": 0.5075,
-      "brier_final": 0.6229
+      "n": 337,
+      "hit_rate": 0.5104,
+      "brier_final": 0.6211
     },
     {
       "layer": "2.0-3.0",
-      "n": 278,
-      "hit_rate": 0.4317,
-      "brier_final": 0.6583
+      "n": 280,
+      "hit_rate": 0.4357,
+      "brier_final": 0.6574
     },
     {
       "layer": "1.0-1.5",
-      "n": 256,
-      "hit_rate": 0.7148,
-      "brier_final": 0.4679
+      "n": 259,
+      "hit_rate": 0.7181,
+      "brier_final": 0.4645
     },
     {
       "layer": "3.0+",
@@ -1204,21 +1204,21 @@
   "by_conf_tier": [
     {
       "layer": "mid",
-      "n": 492,
-      "hit_rate": 0.4959,
-      "brier_final": 0.6221
+      "n": 495,
+      "hit_rate": 0.499,
+      "brier_final": 0.6206
     },
     {
       "layer": "high",
-      "n": 274,
-      "hit_rate": 0.6533,
-      "brier_final": 0.501
+      "n": 277,
+      "hit_rate": 0.657,
+      "brier_final": 0.4975
     },
     {
       "layer": "low",
-      "n": 136,
-      "hit_rate": 0.4265,
-      "brier_final": 0.6592
+      "n": 137,
+      "hit_rate": 0.4307,
+      "brier_final": 0.6586
     }
   ]
 }
