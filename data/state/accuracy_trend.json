@@ -1,14 +1,14 @@
 {
   "generated_at": "2026-09-30",
-  "total_matches": 909,
+  "total_matches": 910,
   "date_range": [
     "2026-07-19",
     "2026-09-29"
   ],
   "overall": {
-    "hit_rate": 0.5369,
-    "brier_final": 0.5888,
-    "brier_model": 0.62,
+    "hit_rate": 0.5374,
+    "brier_final": 0.5884,
+    "brier_model": 0.6195,
     "brier_market": 0.5773,
     "brier_djyy": 0.646
   },
@@ -879,21 +879,21 @@
     },
     {
       "date": "2026-09-29",
-      "n": 14,
-      "hits": 12,
-      "hit_rate": 0.8571,
-      "cum_hit_rate": 0.5369,
-      "brier_final": 0.4538,
-      "brier_model": 0.4695,
+      "n": 15,
+      "hits": 13,
+      "hit_rate": 0.8667,
+      "cum_hit_rate": 0.5374,
+      "brier_final": 0.4354,
+      "brier_model": 0.4508,
       "brier_market": null,
       "brier_djyy": null,
       "pnl": 0.0
     }
   ],
   "rolling7": {
-    "n": 79,
-    "hit_rate": 0.6835,
-    "brier_final": 0.5197,
+    "n": 80,
+    "hit_rate": 0.6875,
+    "brier_final": 0.5171,
     "pnl": 0.0
   },
   "prev7": {
@@ -902,7 +902,7 @@
     "brier_final": 0.5463,
     "pnl": 0.0
   },
-  "verdict": "命中率提升 +17pt",
+  "verdict": "命中率提升 +18pt",
   "by_league": [
     {
       "layer": "西甲",
@@ -1127,6 +1127,12 @@
       "brier_final": 0.4702
     },
     {
+      "layer": "友谊赛",
+      "n": 2,
+      "hit_rate": 1.0,
+      "brier_final": 0.2273
+    },
+    {
       "layer": "世界杯",
       "n": 1,
       "hit_rate": 1.0,
@@ -1167,12 +1173,6 @@
       "n": 1,
       "hit_rate": 1.0,
       "brier_final": 0.1413
-    },
-    {
-      "layer": "友谊赛",
-      "n": 1,
-      "hit_rate": 1.0,
-      "brier_final": 0.2767
     }
   ],
   "by_odds_band": [
@@ -1190,9 +1190,9 @@
     },
     {
       "layer": "1.0-1.5",
-      "n": 259,
-      "hit_rate": 0.7181,
-      "brier_final": 0.4645
+      "n": 260,
+      "hit_rate": 0.7192,
+      "brier_final": 0.4634
     },
     {
       "layer": "3.0+",
@@ -1210,9 +1210,9 @@
     },
     {
       "layer": "high",
-      "n": 277,
-      "hit_rate": 0.657,
-      "brier_final": 0.4975
+      "n": 278,
+      "hit_rate": 0.6583,
+      "brier_final": 0.4963
     },
     {
       "layer": "low",
