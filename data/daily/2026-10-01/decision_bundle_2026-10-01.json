@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "date": "2026-10-01",
+  "created_at": "2026-09-30T16:01:04",
+  "inputs": {
+    "import_manifest": {
+      "import_date": "2026-10-01",
+      "source": "wancai500",
+      "fixture_count": 2,
+      "sha256": "121dc929602e891f9f9fc24a54f7d07be60a61b1dcead4ddecafe185397dacaf",
+      "timestamp": "2026-09-30T16:01:01.354810",
+      "fallback_used": true
+    },
+    "config_prediction": "722c2a8aa54aaa4a7c1410cefc25af75b6072ca6f9d483f8133238c7e1dc4edf",
+    "config_strategy": "960487e9fe4ef15aaeafc92f5a70acf0551415dbef35297df14777f04a9511f6",
+    "model_code_hashes": {}
+  },
+  "outputs": {
+    "predictions_hash": "91728447ae775052c444407172034de7ed9dbc5946b7442711e7f25161bf97c7",
+    "predictions_count": 2,
+    "betting_plan_hash": "c3f823b623d449d871eba6be2ab103d93232b2b3c06f6026c31bf935abcc1f39",
+    "total_stake": 0.0
+  },
+  "bundle_sha256": "532efafec01d6618ae7c928c10785ef318c8557c1bb94e8a542229ce4425a715"
+}

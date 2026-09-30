@@ -488,10 +488,10 @@
     "draw_baseline": 0.25,
     "draw_predictions": 0,
     "draw_hits": 0,
-    "total_predictions": 13,
-    "total_hits": 10,
+    "total_predictions": 15,
+    "total_hits": 11,
     "avg_overround": 0.0,
-    "last_updated": "2026-09-26"
+    "last_updated": "2026-09-30"
   },
   "亚冠乙": {
     "base_goals": 1.35,
@@ -535,7 +535,7 @@
   "欧国联": {
     "base_goals": 1.35,
     "home_adv_weight": 1.0,
-    "market_blend_weight": 0.13000000000000006,
+    "market_blend_weight": 0.1,
     "xg_calibration": 1.0,
     "draw_baseline": 0.25,
     "draw_predictions": 1,
