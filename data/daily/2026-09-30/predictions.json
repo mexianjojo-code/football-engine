@@ -4,14 +4,14 @@
     "competition": "亚运男足",
     "home_team": "乌兹别克亚运男足",
     "away_team": "日本亚",
-    "home_win_prob": 0.414,
-    "draw_prob": 0.2631,
-    "away_win_prob": 0.3229,
+    "home_win_prob": 0.4127,
+    "draw_prob": 0.2616,
+    "away_win_prob": 0.3257,
     "home_xg": 1.437,
     "away_xg": 1.3,
-    "home_odds": 2.3,
-    "draw_odds": 3.62,
-    "away_odds": 2.95,
+    "home_odds": 2.31,
+    "draw_odds": 3.64,
+    "away_odds": 2.92,
     "odds_synthetic": true,
     "handicap": null,
     "handicap_home_odds": null,
@@ -20,21 +20,21 @@
     "handicap_home_prob": 0.0,
     "handicap_draw_prob": 0.0,
     "handicap_away_prob": 0.0,
-    "confidence": 0.0891,
+    "confidence": 0.0888,
     "wilson_trust": 0.2247,
     "model_raw": {
-      "home": 0.3964,
-      "draw": 0.271,
-      "away": 0.3326
+      "home": 0.3951,
+      "draw": 0.2694,
+      "away": 0.3355
     },
     "market_fair": null,
     "fusion_trace": [
       {
         "step": "base_model",
         "after": [
-          0.3964,
-          0.271,
-          0.3326
+          0.3951,
+          0.2694,
+          0.3355
         ]
       },
       {
@@ -45,9 +45,9 @@
           0.0
         ],
         "after": [
-          0.4264,
-          0.271,
-          0.3326
+          0.4251,
+          0.2694,
+          0.3355
         ]
       }
     ],
@@ -55,42 +55,42 @@
       [
         0,
         0,
-        0.2018
+        0.1954
       ],
       [
         1,
         0,
-        0.1789
+        0.1751
       ],
       [
         0,
         1,
-        0.1541
+        0.161
       ],
       [
         1,
         1,
-        0.1387
+        0.1426
       ],
       [
         2,
         0,
-        0.097
+        0.0955
       ],
       [
         0,
         2,
-        0.0811
+        0.0799
       ],
       [
         2,
         1,
-        0.0783
+        0.0782
       ],
       [
         1,
         2,
-        0.0701
+        0.0724
       ]
     ],
     "score_sources": "mc",
@@ -99,47 +99,47 @@
       [
         0,
         0,
-        0.20177963883800054
+        0.195385629531971
       ],
       [
         1,
         0,
-        0.17887987437843494
+        0.1750823994726434
       ],
       [
         0,
         1,
-        0.15414812876210415
+        0.16097560975609757
       ],
       [
         1,
         1,
-        0.13870714472651138
+        0.14264996704021096
       ],
       [
         2,
         0,
-        0.09696414551164617
+        0.09545154911008571
       ],
       [
         0,
         2,
-        0.08113059408531798
+        0.07989452867501648
       ],
       [
         2,
         1,
-        0.07825176655325831
+        0.07818061964403428
       ],
       [
         1,
         2,
-        0.07013870714472652
+        0.07237969676994067
       ]
     ],
     "market_signal": {
-      "home": -1.026,
-      "draw": -0.312,
+      "home": -1.01,
+      "draw": -0.324,
       "away": 0.836
     },
     "freshness": {
@@ -241,7 +241,7 @@
     "elo_away": 1500.0,
     "draw_alert": null,
     "kickoff": "2026-09-30 18:30:00",
-    "as_of": "2026-09-30T16:58:54+08:00",
+    "as_of": "2026-09-30T17:33:13+08:00",
     "match_no": "周三002",
     "sina_odds": {
       "initial_odds": {
@@ -250,8 +250,8 @@
         "away": 2.0
       },
       "current_odds": {
-        "home": 6.4,
-        "draw": 3.85,
+        "home": 6.3,
+        "draw": 3.88,
         "away": 1.41
       },
       "movement": {
@@ -260,11 +260,11 @@
         "away": "down"
       },
       "compression": {
-        "home": 0.487,
-        "draw": 0.844,
+        "home": 0.495,
+        "draw": 0.838,
         "away": 1.418
       },
-      "odds_history_count": 22,
+      "odds_history_count": 23,
       "asia": {
         "company": "威*",
         "initial": {
@@ -293,32 +293,32 @@
       },
       "match_time": "2026-09-30 18:30:00",
       "series": {
-        "points": 17,
-        "overall_home": 64.1,
+        "points": 18,
+        "overall_home": 61.54,
         "overall_away": -18.97,
-        "recent_home": -3.03,
-        "recent_away": 2.17,
-        "span_min": 984.0
+        "recent_home": -1.56,
+        "recent_away": 0.0,
+        "span_min": 1018.6
       }
     },
     "direction": "home",
-    "direction_prob": 0.414,
-    "direction_margin": 0.0911,
-    "kelly_edge": -0.0478
+    "direction_prob": 0.4127,
+    "direction_margin": 0.087,
+    "kelly_edge": -0.0467
   },
   {
     "match_id": "2026-09-30_周三001",
     "competition": "亚运男足",
     "home_team": "韩国亚运男足",
     "away_team": "中国亚运男足",
-    "home_win_prob": 0.4113,
-    "draw_prob": 0.2631,
-    "away_win_prob": 0.3256,
+    "home_win_prob": 0.4131,
+    "draw_prob": 0.2626,
+    "away_win_prob": 0.3243,
     "home_xg": 1.437,
     "away_xg": 1.3,
-    "home_odds": 2.32,
-    "draw_odds": 3.62,
-    "away_odds": 2.92,
+    "home_odds": 2.31,
+    "draw_odds": 3.63,
+    "away_odds": 2.94,
     "odds_synthetic": true,
     "handicap": null,
     "handicap_home_odds": null,
@@ -327,21 +327,21 @@
     "handicap_home_prob": 0.0,
     "handicap_draw_prob": 0.0,
     "handicap_away_prob": 0.0,
-    "confidence": 0.0884,
+    "confidence": 0.0889,
     "wilson_trust": 0.2247,
     "model_raw": {
-      "home": 0.3936,
-      "draw": 0.271,
-      "away": 0.3354
+      "home": 0.3955,
+      "draw": 0.2705,
+      "away": 0.3341
     },
     "market_fair": null,
     "fusion_trace": [
       {
         "step": "base_model",
         "after": [
-          0.3936,
-          0.271,
-          0.3354
+          0.3955,
+          0.2705,
+          0.3341
         ]
       },
       {
@@ -352,9 +352,9 @@
           0.0
         ],
         "after": [
-          0.4236,
-          0.271,
-          0.3354
+          0.4255,
+          0.2705,
+          0.3341
         ]
       }
     ],
@@ -362,42 +362,42 @@
       [
         0,
         0,
-        0.1954
+        0.197
       ],
       [
         1,
         0,
-        0.1728
+        0.1759
       ],
       [
         0,
         1,
-        0.1594
+        0.1574
       ],
       [
         1,
         1,
-        0.1449
+        0.1421
       ],
       [
         2,
         0,
-        0.0954
+        0.0967
       ],
       [
         0,
         2,
-        0.0806
+        0.0803
       ],
       [
         2,
         1,
-        0.0785
+        0.0775
       ],
       [
         1,
         2,
-        0.0731
+        0.073
       ]
     ],
     "score_sources": "mc",
@@ -406,42 +406,42 @@
       [
         0,
         0,
-        0.19544317134202557
+        0.196999605211212
       ],
       [
         1,
         0,
-        0.1727907283023838
+        0.17594420318462958
       ],
       [
         0,
         1,
-        0.15935730277887528
+        0.15738913014870376
       ],
       [
         1,
         1,
-        0.144870275253523
+        0.1421239636794315
       ],
       [
         2,
         0,
-        0.09535098116686423
+        0.0967232530596131
       ],
       [
         0,
         2,
-        0.08060055314105097
+        0.08027372022634557
       ],
       [
         2,
         1,
-        0.07849334913736336
+        0.07751019871035662
       ],
       [
         1,
         2,
-        0.07309363887791387
+        0.07303592577970786
       ]
     ],
     "market_signal": {
@@ -548,7 +548,7 @@
     "elo_away": 1500.0,
     "draw_alert": null,
     "kickoff": "2026-09-30 14:00:00",
-    "as_of": "2026-09-30T16:58:54+08:00",
+    "as_of": "2026-09-30T17:33:13+08:00",
     "match_no": "周三001",
     "sina_odds": {
       "initial_odds": {
@@ -605,12 +605,12 @@
         "overall_away": 31.31,
         "recent_home": 8.18,
         "recent_away": -31.58,
-        "span_min": 900.0
+        "span_min": 934.5
       }
     },
     "direction": "home",
-    "direction_prob": 0.4113,
-    "direction_margin": 0.0856,
-    "kelly_edge": -0.0458
+    "direction_prob": 0.4131,
+    "direction_margin": 0.0887,
+    "kelly_edge": -0.0457
   }
 ]
