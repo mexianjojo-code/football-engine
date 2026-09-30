@@ -11,9 +11,9 @@
       "type": "2串1",
       "legs": [
         {
-          "match": "2026-09-30_周三002",
-          "home": "乌兹别克亚运男足",
-          "away": "日本亚",
+          "match": "2026-09-30_周三001",
+          "home": "韩国亚运男足",
+          "away": "中国亚运男足",
           "league": "亚运男足",
           "sel": "home",
           "odds": 2.3,
@@ -24,15 +24,15 @@
           "hit_prob": 0.508
         },
         {
-          "match": "2026-09-30_周三001",
-          "home": "韩国亚运男足",
-          "away": "中国亚运男足",
+          "match": "2026-09-30_周三002",
+          "home": "乌兹别克亚运男足",
+          "away": "日本亚",
           "league": "亚运男足",
           "sel": "home",
           "odds": 2.31,
-          "prob": 0.412,
+          "prob": 0.413,
           "cal_prob": 0.508,
-          "market_prob": 0.412,
+          "market_prob": 0.413,
           "source": "fusion",
           "hit_prob": 0.508
         }
@@ -42,7 +42,7 @@
       "cal_ev": 5.16,
       "cal_roi": 0.3706,
       "market_ev": -0.19,
-      "market_roi": -0.094,
+      "market_roi": -0.093,
       "hit_prob_cal": 0.258,
       "recommended": true,
       "stake": 13.93,
