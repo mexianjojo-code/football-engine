@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T08:01:38.080039+00:00",
+  "generated_at": "2026-09-30T08:37:26.827729+00:00",
   "parlay": {
     "n_tickets": 108,
     "n_pending": 1,
@@ -4280,8 +4280,8 @@
         "date": "2026-09-30",
         "type": "2串1",
         "stake": 13.93,
-        "potential": 74.01,
-        "total_odds": 5.31,
+        "potential": 73.69,
+        "total_odds": 5.29,
         "odds_source": null,
         "note": "待赛",
         "won": false,
@@ -4307,7 +4307,7 @@
             "away": "日本亚",
             "sel": "home",
             "score": null,
-            "odds": 2.31,
+            "odds": 2.3,
             "hit": null
           }
         ]
@@ -25512,8 +25512,8 @@
             "date": "2026-09-30",
             "type": "2串1",
             "stake": 13.93,
-            "potential": 74.01,
-            "total_odds": 5.31,
+            "potential": 73.69,
+            "total_odds": 5.29,
             "odds_source": null,
             "note": "待赛",
             "won": false,
@@ -25539,7 +25539,7 @@
                 "away": "日本亚",
                 "sel": "home",
                 "score": null,
-                "odds": 2.31,
+                "odds": 2.3,
                 "hit": null
               }
             ]
