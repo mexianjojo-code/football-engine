@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T14:01:32.042978+00:00",
+  "generated_at": "2026-09-30T14:38:48.011873+00:00",
   "parlay": {
     "n_tickets": 108,
     "n_pending": 1,
@@ -4280,8 +4280,8 @@
         "date": "2026-09-30",
         "type": "2串1",
         "stake": 13.93,
-        "potential": 73.69,
-        "total_odds": 5.29,
+        "potential": 74.65,
+        "total_odds": 5.36,
         "odds_source": null,
         "note": "待赛",
         "won": false,
@@ -4293,21 +4293,21 @@
         "return": 0.0,
         "legs": [
           {
-            "match": "2026-09-30_周三001",
-            "home": "韩国亚运男足",
-            "away": "中国亚运男足",
-            "sel": "home",
-            "score": null,
-            "odds": 2.3,
-            "hit": null
-          },
-          {
             "match": "2026-09-30_周三002",
             "home": "乌兹别克亚运男足",
             "away": "日本亚",
             "sel": "home",
             "score": null,
-            "odds": 2.3,
+            "odds": 2.31,
+            "hit": null
+          },
+          {
+            "match": "2026-09-30_周三001",
+            "home": "韩国亚运男足",
+            "away": "中国亚运男足",
+            "sel": "home",
+            "score": null,
+            "odds": 2.32,
             "hit": null
           }
         ]
@@ -25512,8 +25512,8 @@
             "date": "2026-09-30",
             "type": "2串1",
             "stake": 13.93,
-            "potential": 73.69,
-            "total_odds": 5.29,
+            "potential": 74.65,
+            "total_odds": 5.36,
             "odds_source": null,
             "note": "待赛",
             "won": false,
@@ -25525,21 +25525,21 @@
             "return": 0.0,
             "legs": [
               {
-                "match": "2026-09-30_周三001",
-                "home": "韩国亚运男足",
-                "away": "中国亚运男足",
-                "sel": "home",
-                "score": null,
-                "odds": 2.3,
-                "hit": null
-              },
-              {
                 "match": "2026-09-30_周三002",
                 "home": "乌兹别克亚运男足",
                 "away": "日本亚",
                 "sel": "home",
                 "score": null,
-                "odds": 2.3,
+                "odds": 2.31,
+                "hit": null
+              },
+              {
+                "match": "2026-09-30_周三001",
+                "home": "韩国亚运男足",
+                "away": "中国亚运男足",
+                "sel": "home",
+                "score": null,
+                "odds": 2.32,
                 "hit": null
               }
             ]
