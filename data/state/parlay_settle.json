@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-07T14:34:44.087095+00:00",
+  "generated_at": "2026-10-07T17:58:53.774870+00:00",
   "parlay": {
-    "n_tickets": 108,
-    "n_pending": 5,
+    "n_tickets": 113,
+    "n_pending": 10,
     "n_settled": 103,
     "n_won": 27,
     "hit_rate": 0.2621,
     "stake": 562.83,
-    "stake_committed": 586.06,
-    "stake_pending": 23.23,
+    "stake_committed": 609.28,
+    "stake_pending": 46.45,
     "return": 613.08,
     "roi": 0.0893,
     "avg_odds": 5.82,
@@ -4308,6 +4308,206 @@
             "sel": "draw",
             "score": null,
             "odds": 3.8,
+            "hit": null
+          }
+        ]
+      },
+      {
+        "date": "2026-10-08",
+        "type": "2串1",
+        "stake": 5.61,
+        "potential": 85.83,
+        "total_odds": 15.3,
+        "odds_source": null,
+        "note": "待赛",
+        "won": false,
+        "pending": true,
+        "leg_results": [
+          null,
+          null
+        ],
+        "return": 0.0,
+        "legs": [
+          {
+            "match": "2026-10-08_周四003",
+            "home": "桑托斯",
+            "away": "弗拉门戈",
+            "sel": "draw",
+            "score": null,
+            "odds": 3.6,
+            "hit": null
+          },
+          {
+            "match": "2026-10-08_周四005",
+            "home": "弗鲁米嫩塞",
+            "away": "科里蒂巴",
+            "sel": "draw",
+            "score": null,
+            "odds": 4.25,
+            "hit": null
+          }
+        ]
+      },
+      {
+        "date": "2026-10-08",
+        "type": "2串1",
+        "stake": 5.38,
+        "potential": 71.34,
+        "total_odds": 13.26,
+        "odds_source": null,
+        "note": "待赛",
+        "won": false,
+        "pending": true,
+        "leg_results": [
+          null,
+          null
+        ],
+        "return": 0.0,
+        "legs": [
+          {
+            "match": "2026-10-08_周四004",
+            "home": "巴拉纳竞技",
+            "away": "米内罗竞技",
+            "sel": "draw",
+            "score": null,
+            "odds": 3.12,
+            "hit": null
+          },
+          {
+            "match": "2026-10-08_周四005",
+            "home": "弗鲁米嫩塞",
+            "away": "科里蒂巴",
+            "sel": "draw",
+            "score": null,
+            "odds": 4.25,
+            "hit": null
+          }
+        ]
+      },
+      {
+        "date": "2026-10-08",
+        "type": "2串1",
+        "stake": 5.06,
+        "potential": 56.83,
+        "total_odds": 11.23,
+        "odds_source": null,
+        "note": "待赛",
+        "won": false,
+        "pending": true,
+        "leg_results": [
+          null,
+          null
+        ],
+        "return": 0.0,
+        "legs": [
+          {
+            "match": "2026-10-08_周四003",
+            "home": "桑托斯",
+            "away": "弗拉门戈",
+            "sel": "draw",
+            "score": null,
+            "odds": 3.6,
+            "hit": null
+          },
+          {
+            "match": "2026-10-08_周四004",
+            "home": "巴拉纳竞技",
+            "away": "米内罗竞技",
+            "sel": "draw",
+            "score": null,
+            "odds": 3.12,
+            "hit": null
+          }
+        ]
+      },
+      {
+        "date": "2026-10-08",
+        "type": "3串1",
+        "stake": 3.08,
+        "potential": 147.03,
+        "total_odds": 47.74,
+        "odds_source": null,
+        "note": "待赛",
+        "won": false,
+        "pending": true,
+        "leg_results": [
+          null,
+          null,
+          null
+        ],
+        "return": 0.0,
+        "legs": [
+          {
+            "match": "2026-10-08_周四003",
+            "home": "桑托斯",
+            "away": "弗拉门戈",
+            "sel": "draw",
+            "score": null,
+            "odds": 3.6,
+            "hit": null
+          },
+          {
+            "match": "2026-10-08_周四004",
+            "home": "巴拉纳竞技",
+            "away": "米内罗竞技",
+            "sel": "draw",
+            "score": null,
+            "odds": 3.12,
+            "hit": null
+          },
+          {
+            "match": "2026-10-08_周四005",
+            "home": "弗鲁米嫩塞",
+            "away": "科里蒂巴",
+            "sel": "draw",
+            "score": null,
+            "odds": 4.25,
+            "hit": null
+          }
+        ]
+      },
+      {
+        "date": "2026-10-08",
+        "type": "3串4",
+        "stake": 4.09,
+        "potential": 89.5,
+        "total_odds": 21.88,
+        "odds_source": null,
+        "note": "待赛",
+        "won": false,
+        "pending": true,
+        "leg_results": [
+          null,
+          null,
+          null
+        ],
+        "return": 0.0,
+        "legs": [
+          {
+            "match": "2026-10-08_周四003",
+            "home": "桑托斯",
+            "away": "弗拉门戈",
+            "sel": "draw",
+            "score": null,
+            "odds": 3.6,
+            "hit": null
+          },
+          {
+            "match": "2026-10-08_周四004",
+            "home": "巴拉纳竞技",
+            "away": "米内罗竞技",
+            "sel": "draw",
+            "score": null,
+            "odds": 3.12,
+            "hit": null
+          },
+          {
+            "match": "2026-10-08_周四005",
+            "home": "弗鲁米嫩塞",
+            "away": "科里蒂巴",
+            "sel": "draw",
+            "score": null,
+            "odds": 4.25,
             "hit": null
           }
         ]
@@ -25627,6 +25827,230 @@
             ]
           }
         ]
+      }
+    },
+    "2026-10-08": {
+      "parlay": {
+        "stats": {
+          "n_tickets": 5,
+          "n_pending": 5,
+          "n_settled": 0,
+          "n_won": 0,
+          "hit_rate": null,
+          "stake": 0,
+          "stake_committed": 23.22,
+          "stake_pending": 23.22,
+          "return": 0,
+          "roi": null,
+          "avg_odds": null,
+          "by_type": {}
+        },
+        "tickets": [
+          {
+            "date": "2026-10-08",
+            "type": "2串1",
+            "stake": 5.61,
+            "potential": 85.83,
+            "total_odds": 15.3,
+            "odds_source": null,
+            "note": "待赛",
+            "won": false,
+            "pending": true,
+            "leg_results": [
+              null,
+              null
+            ],
+            "return": 0.0,
+            "legs": [
+              {
+                "match": "2026-10-08_周四003",
+                "home": "桑托斯",
+                "away": "弗拉门戈",
+                "sel": "draw",
+                "score": null,
+                "odds": 3.6,
+                "hit": null
+              },
+              {
+                "match": "2026-10-08_周四005",
+                "home": "弗鲁米嫩塞",
+                "away": "科里蒂巴",
+                "sel": "draw",
+                "score": null,
+                "odds": 4.25,
+                "hit": null
+              }
+            ]
+          },
+          {
+            "date": "2026-10-08",
+            "type": "2串1",
+            "stake": 5.38,
+            "potential": 71.34,
+            "total_odds": 13.26,
+            "odds_source": null,
+            "note": "待赛",
+            "won": false,
+            "pending": true,
+            "leg_results": [
+              null,
+              null
+            ],
+            "return": 0.0,
+            "legs": [
+              {
+                "match": "2026-10-08_周四004",
+                "home": "巴拉纳竞技",
+                "away": "米内罗竞技",
+                "sel": "draw",
+                "score": null,
+                "odds": 3.12,
+                "hit": null
+              },
+              {
+                "match": "2026-10-08_周四005",
+                "home": "弗鲁米嫩塞",
+                "away": "科里蒂巴",
+                "sel": "draw",
+                "score": null,
+                "odds": 4.25,
+                "hit": null
+              }
+            ]
+          },
+          {
+            "date": "2026-10-08",
+            "type": "2串1",
+            "stake": 5.06,
+            "potential": 56.83,
+            "total_odds": 11.23,
+            "odds_source": null,
+            "note": "待赛",
+            "won": false,
+            "pending": true,
+            "leg_results": [
+              null,
+              null
+            ],
+            "return": 0.0,
+            "legs": [
+              {
+                "match": "2026-10-08_周四003",
+                "home": "桑托斯",
+                "away": "弗拉门戈",
+                "sel": "draw",
+                "score": null,
+                "odds": 3.6,
+                "hit": null
+              },
+              {
+                "match": "2026-10-08_周四004",
+                "home": "巴拉纳竞技",
+                "away": "米内罗竞技",
+                "sel": "draw",
+                "score": null,
+                "odds": 3.12,
+                "hit": null
+              }
+            ]
+          },
+          {
+            "date": "2026-10-08",
+            "type": "3串1",
+            "stake": 3.08,
+            "potential": 147.03,
+            "total_odds": 47.74,
+            "odds_source": null,
+            "note": "待赛",
+            "won": false,
+            "pending": true,
+            "leg_results": [
+              null,
+              null,
+              null
+            ],
+            "return": 0.0,
+            "legs": [
+              {
+                "match": "2026-10-08_周四003",
+                "home": "桑托斯",
+                "away": "弗拉门戈",
+                "sel": "draw",
+                "score": null,
+                "odds": 3.6,
+                "hit": null
+              },
+              {
+                "match": "2026-10-08_周四004",
+                "home": "巴拉纳竞技",
+                "away": "米内罗竞技",
+                "sel": "draw",
+                "score": null,
+                "odds": 3.12,
+                "hit": null
+              },
+              {
+                "match": "2026-10-08_周四005",
+                "home": "弗鲁米嫩塞",
+                "away": "科里蒂巴",
+                "sel": "draw",
+                "score": null,
+                "odds": 4.25,
+                "hit": null
+              }
+            ]
+          },
+          {
+            "date": "2026-10-08",
+            "type": "3串4",
+            "stake": 4.09,
+            "potential": 89.5,
+            "total_odds": 21.88,
+            "odds_source": null,
+            "note": "待赛",
+            "won": false,
+            "pending": true,
+            "leg_results": [
+              null,
+              null,
+              null
+            ],
+            "return": 0.0,
+            "legs": [
+              {
+                "match": "2026-10-08_周四003",
+                "home": "桑托斯",
+                "away": "弗拉门戈",
+                "sel": "draw",
+                "score": null,
+                "odds": 3.6,
+                "hit": null
+              },
+              {
+                "match": "2026-10-08_周四004",
+                "home": "巴拉纳竞技",
+                "away": "米内罗竞技",
+                "sel": "draw",
+                "score": null,
+                "odds": 3.12,
+                "hit": null
+              },
+              {
+                "match": "2026-10-08_周四005",
+                "home": "弗鲁米嫩塞",
+                "away": "科里蒂巴",
+                "sel": "draw",
+                "score": null,
+                "odds": 4.25,
+                "hit": null
+              }
+            ]
+          }
+        ]
+      },
+      "score_parlay": {
+        "stats": null,
+        "tickets": []
       }
     }
   }
