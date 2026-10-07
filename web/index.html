@@ -966,6 +966,8 @@ a { color:var(--blue); }
         <span class="info-chip" style="color:var(--teal, #14b8a6)">水位监控 4次 · 跨434min</span>
         <span class="info-chip" style="color:var(--red)">模型vs市场分歧 <b>16%</b></span>
         
+        <span class="info-chip" style="color:var(--amber)">分歧 <b>13%</b></span>
+        
       </div>
     </div>
     <div class="match-detail">
@@ -1190,7 +1192,13 @@ a { color:var(--blue); }
         </tr>
         <tr>
           <td class="src-label">DJYY模型</td>
-          <td class="prob-bar-cell"><span style="font-size:0.65rem;color:var(--dim);">暂无</span></td>
+          <td class="prob-bar-cell">
+            <div class="mini-bar-wrap">
+              <div class="mini-bar h" style="width:44.1%">44</div>
+              <div class="mini-bar d" style="width:28.5%">28</div>
+              <div class="mini-bar a" style="width:27.4%">27</div>
+            </div>
+          </td>
         </tr>
         <tr>
           <td class="src-label">最终融合</td>
