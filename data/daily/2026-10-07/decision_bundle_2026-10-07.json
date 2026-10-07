@@ -1,14 +1,14 @@
 {
-  "version": 3,
+  "version": 4,
   "date": "2026-10-07",
-  "created_at": "2026-10-07T11:38:21",
+  "created_at": "2026-10-07T14:34:03",
   "inputs": {
     "import_manifest": {
       "import_date": "2026-10-07",
       "source": "merged(sporttery+500wan)",
       "fixture_count": 12,
       "sha256": "4a15acbf67a4e3a95cfbe288f41308ea4c2c944f83e57c78c0d1420805479dfc",
-      "timestamp": "2026-10-07T11:38:18.731295",
+      "timestamp": "2026-10-07T14:34:00.609979",
       "fallback_used": true
     },
     "config_prediction": "722c2a8aa54aaa4a7c1410cefc25af75b6072ca6f9d483f8133238c7e1dc4edf",
@@ -16,10 +16,10 @@
     "model_code_hashes": {}
   },
   "outputs": {
-    "predictions_hash": "3260fa02374a098c9d8bca095a2a0d0d493f90129715d900cfd43e6432e89619",
+    "predictions_hash": "0b2299863d5203494848fca6316880a31c1e6927d5059232859b43282ee603f7",
     "predictions_count": 6,
-    "betting_plan_hash": "3fe6e64415c1c3427f6ba8e874a8484146ed82ca68ff54de1f9718e79def6c6a",
+    "betting_plan_hash": "849d689aa4e2a46ded4f01fb16eaa865b5b4981cf1de868535fc4aef8aa76145",
     "total_stake": 500.0
   },
-  "bundle_sha256": "2adcb93b43ebd892ae65a7fa2bbdbdd905fdfe4581c631fad09a44191257a69c"
+  "bundle_sha256": "6fe4d1a703731fb6e7ff0a422cc3df816f1506549e96c0b77e59c97552cfc04d"
 }
