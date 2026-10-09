@@ -93,12 +93,12 @@
   "巴甲": {
     "base_goals": 1.35,
     "home_adv_weight": 1.0,
-    "market_blend_weight": 0.43,
+    "market_blend_weight": 0.48,
     "xg_calibration": 0.71,
     "draw_baseline": 0.6,
-    "draw_predictions": 34,
+    "draw_predictions": 36,
     "draw_hits": 13,
-    "total_predictions": 26,
+    "total_predictions": 28,
     "total_hits": 7,
     "avg_overround": 0.0,
     "last_updated": "2026-10-09"
