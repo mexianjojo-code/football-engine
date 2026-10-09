@@ -1,46 +1,46 @@
 {
-  "total_matches": 939,
+  "total_matches": 941,
   "date_range": [
     "2026-07-19",
     "2026-10-08"
   ],
   "metrics": {
-    "brier": 0.5841,
-    "weighted_brier": 0.581,
-    "rps": 0.2006,
-    "weighted_rps": 0.1997,
-    "log_loss": 0.9815,
-    "hit_rate": 0.5399,
-    "ece": 0.0863
+    "brier": 0.5837,
+    "weighted_brier": 0.5805,
+    "rps": 0.2004,
+    "weighted_rps": 0.1994,
+    "log_loss": 0.9809,
+    "hit_rate": 0.5409,
+    "ece": 0.0858
   },
   "draw_analysis": {
-    "actual_draws": 228,
-    "actual_draw_rate": 0.2428,
-    "predicted_draws": 31,
-    "predicted_draw_rate": 0.033,
+    "actual_draws": 230,
+    "actual_draw_rate": 0.2444,
+    "predicted_draws": 33,
+    "predicted_draw_rate": 0.0351,
     "max_draw_prob": 0.5025,
-    "avg_draw_prob": 0.2582,
-    "avg_market_draw": 0.2425,
-    "market_high_draw_n": 185,
-    "market_high_draw_actual": 62,
-    "market_high_draw_rate": 0.3351
+    "avg_draw_prob": 0.2588,
+    "avg_market_draw": 0.2426,
+    "market_high_draw_n": 186,
+    "market_high_draw_actual": 63,
+    "market_high_draw_rate": 0.3387
   },
   "strategy_comparison": {
     "model": {
-      "hit_rate": 0.5367,
-      "n": 939
+      "hit_rate": 0.5377,
+      "n": 941
     },
     "market": {
-      "hit_rate": 0.5529,
-      "n": 832
+      "hit_rate": 0.5516,
+      "n": 834
     },
     "hybrid_v2": {
-      "hit_rate": 0.4988,
-      "n": 832
+      "hit_rate": 0.5,
+      "n": 834
     },
     "market_d28": {
-      "hit_rate": 0.5132,
-      "n": 832
+      "hit_rate": 0.5144,
+      "n": 834
     }
   },
   "by_league": {
@@ -110,17 +110,17 @@
       "brier": 0.5331,
       "rps": 0.1643
     },
+    "巴甲": {
+      "n": 36,
+      "hit_rate": 0.3056,
+      "brier": 0.6543,
+      "rps": 0.1852
+    },
     "德甲": {
       "n": 36,
       "hit_rate": 0.5,
       "brier": 0.5832,
       "rps": 0.2143
-    },
-    "巴甲": {
-      "n": 34,
-      "hit_rate": 0.2647,
-      "brier": 0.6698,
-      "rps": 0.1918
     },
     "芬超": {
       "n": 33,

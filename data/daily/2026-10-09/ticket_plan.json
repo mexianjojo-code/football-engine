@@ -17,7 +17,7 @@
           "away": "海伦芬",
           "league": "荷甲",
           "score": "1-0",
-          "prob": 0.233,
+          "prob": 0.236,
           "cal_prob": 0.0951,
           "odds": 19.0
         },
@@ -27,7 +27,7 @@
           "away": "韦斯特罗斯",
           "league": "瑞典超",
           "score": "0-1",
-          "prob": 0.313,
+          "prob": 0.306,
           "cal_prob": 0.0671,
           "odds": 17.0
         }
@@ -40,158 +40,6 @@
       "n_bets": 1,
       "odds_source": "official",
       "note": "两场比分都中才赢（校准命中 0.6% × 赔率 323 倍 = EV +106%）"
-    },
-    {
-      "type": "比分2串1",
-      "legs": [
-        {
-          "match": "2026-10-09_周五006",
-          "home": "埃因霍温",
-          "away": "海伦芬",
-          "league": "荷甲",
-          "score": "1-0",
-          "prob": 0.233,
-          "cal_prob": 0.0951,
-          "odds": 19.0
-        },
-        {
-          "match": "2026-10-09_周五003",
-          "home": "海登海姆",
-          "away": "凯泽",
-          "league": "德乙",
-          "score": "0-1",
-          "prob": 0.19,
-          "cal_prob": 0.0671,
-          "odds": 16.0
-        }
-      ],
-      "total_odds": 304.0,
-      "hit_prob": 0.0064,
-      "stake": 2.0,
-      "potential": 608.0,
-      "worst_win": 0.0,
-      "n_bets": 1,
-      "odds_source": "official",
-      "note": "两场比分都中才赢（校准命中 0.6% × 赔率 304 倍 = EV +94%）"
-    },
-    {
-      "type": "比分2串1",
-      "legs": [
-        {
-          "match": "2026-10-09_周五003",
-          "home": "海登海姆",
-          "away": "凯泽",
-          "league": "德乙",
-          "score": "0-1",
-          "prob": 0.19,
-          "cal_prob": 0.0671,
-          "odds": 16.0
-        },
-        {
-          "match": "2026-10-09_周五004",
-          "home": "哥德堡",
-          "away": "韦斯特罗斯",
-          "league": "瑞典超",
-          "score": "0-1",
-          "prob": 0.313,
-          "cal_prob": 0.0671,
-          "odds": 17.0
-        }
-      ],
-      "total_odds": 272.0,
-      "hit_prob": 0.0045,
-      "stake": 2.0,
-      "potential": 544.0,
-      "worst_win": 0.0,
-      "n_bets": 1,
-      "odds_source": "official",
-      "note": "两场比分都中才赢（校准命中 0.5% × 赔率 272 倍 = EV +23%）"
-    },
-    {
-      "type": "比分3串1",
-      "legs": [
-        {
-          "match": "2026-10-09_周五006",
-          "home": "埃因霍温",
-          "away": "海伦芬",
-          "league": "荷甲",
-          "score": "1-0",
-          "prob": 0.233,
-          "cal_prob": 0.0951,
-          "odds": 19.0
-        },
-        {
-          "match": "2026-10-09_周五003",
-          "home": "海登海姆",
-          "away": "凯泽",
-          "league": "德乙",
-          "score": "0-1",
-          "prob": 0.19,
-          "cal_prob": 0.0671,
-          "odds": 16.0
-        },
-        {
-          "match": "2026-10-09_周五004",
-          "home": "哥德堡",
-          "away": "韦斯特罗斯",
-          "league": "瑞典超",
-          "score": "0-1",
-          "prob": 0.313,
-          "cal_prob": 0.0671,
-          "odds": 17.0
-        }
-      ],
-      "total_odds": 5168.0,
-      "hit_prob": 0.0004,
-      "stake": 2.0,
-      "potential": 10336.0,
-      "worst_win": 0.0,
-      "n_bets": 1,
-      "odds_source": "official",
-      "note": "三场比分全中才赢（赔率 5168 倍，校准命中 0.04%）"
-    },
-    {
-      "type": "比分3串4(容错)",
-      "legs": [
-        {
-          "match": "2026-10-09_周五006",
-          "home": "埃因霍温",
-          "away": "海伦芬",
-          "league": "荷甲",
-          "score": "1-0",
-          "prob": 0.233,
-          "cal_prob": 0.0951,
-          "odds": 19.0
-        },
-        {
-          "match": "2026-10-09_周五003",
-          "home": "海登海姆",
-          "away": "凯泽",
-          "league": "德乙",
-          "score": "0-1",
-          "prob": 0.19,
-          "cal_prob": 0.0671,
-          "odds": 16.0
-        },
-        {
-          "match": "2026-10-09_周五004",
-          "home": "哥德堡",
-          "away": "韦斯特罗斯",
-          "league": "瑞典超",
-          "score": "0-1",
-          "prob": 0.313,
-          "cal_prob": 0.0671,
-          "odds": 17.0
-        }
-      ],
-      "total_odds": 5168.0,
-      "hit_prob": 0.0004,
-      "stake": 8.0,
-      "potential": 12134.0,
-      "worst_win": 646.0,
-      "n_bets": 4,
-      "odds_source": "official",
-      "note": "3场出4注（3×2串1+1×3串1）错1场仍中1注2串1≈¥646，全中≈¥12134"
     }
   ],
   "parlay_calibration": {
