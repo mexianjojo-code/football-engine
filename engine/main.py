@@ -1160,6 +1160,23 @@ def run_daily_pipeline(target_date: date, predict_only: bool = False):
                     predictions.append(_pp)
                     _kept += 1
                     print(f"  ⚠ 保留旧场次（本次采集缺失）: {_pp.get('match_id')} {_pp.get('home_team')} vs {_pp.get('away_team')}")
+            # 2026-10-10 富化字段保全: djyylive 屏蔽 GitHub runner IP 段(CI fetch_fixtures=0),
+            # 本地监控(中国IP)可获取 DJYY 增强。CI 重写 predictions 时若新条目缺这些字段,
+            # 从历史条目回填(只填空不覆盖, 赔率等快变字段新值优先)——本地富化不再被 CI 抹掉。
+            _prev_by_mid = {p.get("match_id"): p for p in _prev_preds}
+            _ENRICH_FIELDS = ("djyy_enriched", "djyy_model_prob", "context",
+                              "djyy_top_scores", "sina_odds", "market_fair")
+            _carried = 0
+            for _np in predictions:
+                _op = _prev_by_mid.get(_np.get("match_id"))
+                if not _op:
+                    continue
+                for _f in _ENRICH_FIELDS:
+                    if not _np.get(_f) and _op.get(_f):
+                        _np[_f] = _op[_f]
+                        _carried += 1
+            if _carried:
+                print(f"  ✓ 富化字段保全: 回填 {_carried} 个字段（CI 无法访问 DJYY 时保留本地富化）")
             if _kept:
                 # 恢复编号顺序（match_no 排序）
                 def _no_key(_p):
