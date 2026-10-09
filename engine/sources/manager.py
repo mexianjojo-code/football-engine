@@ -34,11 +34,20 @@ def _extract_context(comparison: dict | None, info: dict | None,
         if stakes:
             ctx["stakes"] = stakes
     if info:
-        for k_in, k_out in (("referee", "referee"), ("weather", "weather"),
-                            ("coach", "coach")):
-            v = info.get(k_in)
-            if v:
-                ctx[k_out] = v
+        # 2026-10-09 DJYY schema 迁移: referee→referees.main, coach/formation/sidelined 进子对象
+        _ref = (info.get("referees") or {}).get("main") or {}
+        _rname = _ref.get("name_zh") or _ref.get("name") or _ref.get("name_en")
+        if _rname:
+            ctx["referee"] = _rname
+        if info.get("weather"):
+            ctx["weather"] = info["weather"]
+        for side in ("home", "away"):
+            _sub = info.get(side) or {}
+            if _sub.get("coach"):
+                _c = _sub["coach"]
+                ctx[f"coach_{side}"] = (_c.get("name_zh") or _c.get("name")) if isinstance(_c, dict) else _c
+            if _sub.get("formation"):
+                ctx[f"formation_{side}"] = _sub["formation"]
     if lineups and lineups.get("available"):
         for side in ("home", "away"):
             lu = lineups.get(side) or {}
@@ -483,9 +492,9 @@ class SourceManager:
                     try:
                         info = self._djyy.fetch_match_info(djyy_id)
                         if info and info.get("available"):
-                            inj_data = info.get("injuries") or {}
-                            home_inj = inj_data.get("home", [])
-                            away_inj = inj_data.get("away", [])
+                            # 2026-10-09 schema 迁移: 伤停在 home.sidelined / away.sidelined
+                            home_inj = (info.get("home") or {}).get("sidelined") or []
+                            away_inj = (info.get("away") or {}).get("sidelined") or []
                             if home_inj or away_inj:
                                 injuries = {
                                     "home_count": len(home_inj),
