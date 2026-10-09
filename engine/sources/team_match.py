@@ -26,6 +26,11 @@ import unicodedata
 # 持续补充: 每当发现新的译名差异，在这里加一条即可。
 # ---------------------------------------------------------------------------
 TEAM_ALIASES: dict[str, str] = {
+    # 2026-10-09 DJYY 匹配实测失败对（竞彩译名 vs DJYY 全称）
+    "韦斯特罗斯": "瓦斯特拉斯",        # Västerås SK（竞彩用韦，DJYY用瓦）
+    "女王巡游": "女王公园巡游者",      # QPR 交错缩写，前缀规则覆盖不了
+    "不来梅": "云达不莱梅",            # Werder Bremen（竞彩"不来梅" vs DJYY"云达不莱梅"，梅/莱异译）
+    "里斯本": "葡萄牙体育",            # Sporting CP（竞彩"里斯本" vs DJYY"葡萄牙体育"）
     # 欧冠/欧联/欧协联资格赛（2026-07/08 赛季初常见）
     "梅尔比": "米亚尔比",          # Mjällby
     "布拉迪斯拉发": "布拉迪斯",    # Slovan Bratislava
@@ -150,6 +155,12 @@ def match_team(a: str, b: str) -> bool:
         if len(x) >= _MIN_SUBSTR_LEN and len(y) >= _MIN_SUBSTR_LEN:
             if x in y or y in x:
                 return True
+
+    # 2026-10-09 前缀规则: 竞彩大量使用 2 字缩写(凯泽=凯泽斯劳滕、赫拉克勒=赫拉克勒斯)。
+    # 前缀(非任意子串)对 2 字也安全——"联"不会开头匹配"凯泽斯劳滕"。
+    for x, y in ((nn_a, nn_b), (nn_b, nn_a)):
+        if len(x) >= 2 and y.startswith(x):
+            return True
 
     return False
 
