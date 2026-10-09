@@ -395,11 +395,16 @@ class SourceManager:
 
         try:
             djyy_fixtures = self._djyy.fetch_fixtures(target_date)
-        except Exception:
+        except Exception as e:
+            # 2026-10-10 诊断: CI 侧 DJYY 无匹配根因定位（本地正常/CI 为0）
+            print(f"    [djyy诊断] fetch_fixtures 异常: {type(e).__name__}: {e}")
             return enrichment
 
         if not djyy_fixtures:
+            print("    [djyy诊断] fetch_fixtures 返回 0 场（DJYY 对该网络不可达或无数据）")
             return enrichment
+        print(f"    [djyy诊断] fetch_fixtures {len(djyy_fixtures)} 场, "
+              f"有ID样本: {sum(1 for f in djyy_fixtures if getattr(f, '_djyy_id', None))}")
 
         # 建立队名→DJYY ID映射（多级匹配，解决跨源译名不一致）
         djyy_map: dict[str, int] = {}
