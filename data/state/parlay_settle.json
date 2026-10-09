@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T16:36:28.067480+00:00",
+  "generated_at": "2026-10-09T19:01:25.045072+00:00",
   "parlay": {
     "n_tickets": 119,
     "n_pending": 6,
@@ -59,8 +59,8 @@
         "roi": -1.0
       }
     },
-    "leg_hit_rate": 0.1009,
-    "n_legs_settled": 426
+    "leg_hit_rate": 0.1,
+    "n_legs_settled": 430
   },
   "tickets": {
     "parlay": [
@@ -4551,8 +4551,8 @@
       {
         "date": "2026-10-10",
         "type": "2串1",
-        "stake": 6.17,
-        "potential": 32.21,
+        "stake": 6.11,
+        "potential": 31.9,
         "total_odds": 5.22,
         "odds_source": null,
         "note": "待赛",
@@ -4587,8 +4587,8 @@
       {
         "date": "2026-10-10",
         "type": "2串1",
-        "stake": 4.89,
-        "potential": 24.07,
+        "stake": 4.91,
+        "potential": 24.17,
         "total_odds": 4.92,
         "odds_source": null,
         "note": "待赛",
@@ -4623,8 +4623,8 @@
       {
         "date": "2026-10-10",
         "type": "2串1",
-        "stake": 4.59,
-        "potential": 22.3,
+        "stake": 4.62,
+        "potential": 22.44,
         "total_odds": 4.86,
         "odds_source": null,
         "note": "待赛",
@@ -4659,8 +4659,8 @@
       {
         "date": "2026-10-10",
         "type": "3串1",
-        "stake": 3.25,
-        "potential": 36.31,
+        "stake": 3.26,
+        "potential": 36.42,
         "total_odds": 11.17,
         "odds_source": null,
         "note": "待赛",
@@ -11902,7 +11902,7 @@
         "pending": true,
         "leg_results": [
           null,
-          null
+          false
         ],
         "return": 0.0,
         "legs": [
@@ -11922,7 +11922,7 @@
             "sel": null,
             "score": "0-1",
             "odds": 18.0,
-            "hit": null
+            "hit": false
           }
         ]
       },
@@ -11974,7 +11974,7 @@
         "pending": true,
         "leg_results": [
           null,
-          null
+          false
         ],
         "return": 0.0,
         "legs": [
@@ -11994,7 +11994,7 @@
             "sel": null,
             "score": "0-1",
             "odds": 18.0,
-            "hit": null
+            "hit": false
           }
         ]
       },
@@ -12011,7 +12011,7 @@
         "leg_results": [
           null,
           null,
-          null
+          false
         ],
         "return": 0.0,
         "legs": [
@@ -12040,7 +12040,7 @@
             "sel": null,
             "score": "0-1",
             "odds": 18.0,
-            "hit": null
+            "hit": false
           }
         ]
       },
@@ -12057,7 +12057,7 @@
         "leg_results": [
           null,
           null,
-          null
+          false
         ],
         "return": 0.0,
         "legs": [
@@ -12086,7 +12086,7 @@
             "sel": null,
             "score": "0-1",
             "odds": 18.0,
-            "hit": null
+            "hit": false
           }
         ]
       },
@@ -26796,8 +26796,8 @@
           "roi": null,
           "avg_odds": null,
           "by_type": {},
-          "leg_hit_rate": null,
-          "n_legs_settled": 0
+          "leg_hit_rate": 0.0,
+          "n_legs_settled": 4
         },
         "tickets": [
           {
@@ -26812,7 +26812,7 @@
             "pending": true,
             "leg_results": [
               null,
-              null
+              false
             ],
             "return": 0.0,
             "legs": [
@@ -26832,7 +26832,7 @@
                 "sel": null,
                 "score": "0-1",
                 "odds": 18.0,
-                "hit": null
+                "hit": false
               }
             ]
           },
@@ -26884,7 +26884,7 @@
             "pending": true,
             "leg_results": [
               null,
-              null
+              false
             ],
             "return": 0.0,
             "legs": [
@@ -26904,7 +26904,7 @@
                 "sel": null,
                 "score": "0-1",
                 "odds": 18.0,
-                "hit": null
+                "hit": false
               }
             ]
           },
@@ -26921,7 +26921,7 @@
             "leg_results": [
               null,
               null,
-              null
+              false
             ],
             "return": 0.0,
             "legs": [
@@ -26950,7 +26950,7 @@
                 "sel": null,
                 "score": "0-1",
                 "odds": 18.0,
-                "hit": null
+                "hit": false
               }
             ]
           },
@@ -26967,7 +26967,7 @@
             "leg_results": [
               null,
               null,
-              null
+              false
             ],
             "return": 0.0,
             "legs": [
@@ -26996,7 +26996,7 @@
                 "sel": null,
                 "score": "0-1",
                 "odds": 18.0,
-                "hit": null
+                "hit": false
               }
             ]
           }
@@ -27023,8 +27023,8 @@
           {
             "date": "2026-10-10",
             "type": "2串1",
-            "stake": 6.17,
-            "potential": 32.21,
+            "stake": 6.11,
+            "potential": 31.9,
             "total_odds": 5.22,
             "odds_source": null,
             "note": "待赛",
@@ -27059,8 +27059,8 @@
           {
             "date": "2026-10-10",
             "type": "2串1",
-            "stake": 4.89,
-            "potential": 24.07,
+            "stake": 4.91,
+            "potential": 24.17,
             "total_odds": 4.92,
             "odds_source": null,
             "note": "待赛",
@@ -27095,8 +27095,8 @@
           {
             "date": "2026-10-10",
             "type": "2串1",
-            "stake": 4.59,
-            "potential": 22.3,
+            "stake": 4.62,
+            "potential": 22.44,
             "total_odds": 4.86,
             "odds_source": null,
             "note": "待赛",
@@ -27131,8 +27131,8 @@
           {
             "date": "2026-10-10",
             "type": "3串1",
-            "stake": 3.25,
-            "potential": 36.31,
+            "stake": 3.26,
+            "potential": 36.42,
             "total_odds": 11.17,
             "odds_source": null,
             "note": "待赛",
