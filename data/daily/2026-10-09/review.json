@@ -1,13 +1,13 @@
 {
   "date": "2026-10-09",
-  "n_matches": 5,
-  "hit_rate": 0.8,
-  "hits": 4,
+  "n_matches": 12,
+  "hit_rate": 0.5833,
+  "hits": 7,
   "source_brier": {
-    "model": 0.6732,
-    "market": 0.5222,
+    "model": 0.7032,
+    "market": 0.6372,
     "djyy": null,
-    "final": 0.5134
+    "final": 0.6046
   },
   "by_league": {
     "K1联赛": {
@@ -39,6 +39,48 @@
       "hit_rate": 1.0,
       "wilson_lower": 0.2065,
       "avg_brier": 0.3042
+    },
+    "荷甲": {
+      "n": 1,
+      "hit_rate": 1.0,
+      "wilson_lower": 0.2065,
+      "avg_brier": 0.1659
+    },
+    "荷乙": {
+      "n": 1,
+      "hit_rate": 1.0,
+      "wilson_lower": 0.2065,
+      "avg_brier": 0.1564
+    },
+    "德甲": {
+      "n": 1,
+      "hit_rate": 0.0,
+      "wilson_lower": 0.0,
+      "avg_brier": 1.2643
+    },
+    "法甲": {
+      "n": 1,
+      "hit_rate": 0.0,
+      "wilson_lower": 0.0,
+      "avg_brier": 0.6491
+    },
+    "英冠": {
+      "n": 1,
+      "hit_rate": 0.0,
+      "wilson_lower": 0.0,
+      "avg_brier": 1.1796
+    },
+    "西甲": {
+      "n": 1,
+      "hit_rate": 0.0,
+      "wilson_lower": 0.0,
+      "avg_brier": 0.7763
+    },
+    "葡超": {
+      "n": 1,
+      "hit_rate": 1.0,
+      "wilson_lower": 0.2065,
+      "avg_brier": 0.4968
     }
   },
   "by_confidence_tier": {
@@ -49,43 +91,52 @@
       "avg_brier": 0.5686
     },
     "mid": {
-      "n": 1,
-      "hit_rate": 1.0,
-      "wilson_lower": 0.2065,
-      "avg_brier": 0.4752
+      "n": 4,
+      "hit_rate": 0.5,
+      "wilson_lower": 0.15,
+      "avg_brier": 0.5994
     },
     "high": {
-      "n": 3,
-      "hit_rate": 0.6667,
-      "wilson_lower": 0.2077,
-      "avg_brier": 0.5077
+      "n": 7,
+      "hit_rate": 0.5714,
+      "wilson_lower": 0.2505,
+      "avg_brier": 0.6128
     }
   },
   "by_odds_band": {
     "2.0-3.0": {
-      "n": 2,
-      "hit_rate": 1.0,
-      "wilson_lower": 0.3424,
-      "avg_brier": 0.5219
+      "n": 4,
+      "hit_rate": 0.5,
+      "wilson_lower": 0.15,
+      "avg_brier": 0.6173
     },
     "1.5-2.0": {
-      "n": 3,
-      "hit_rate": 0.6667,
-      "wilson_lower": 0.2077,
-      "avg_brier": 0.5077
+      "n": 4,
+      "hit_rate": 0.75,
+      "wilson_lower": 0.3006,
+      "avg_brier": 0.505
+    },
+    "1.0-1.5": {
+      "n": 4,
+      "hit_rate": 0.5,
+      "wilson_lower": 0.15,
+      "avg_brier": 0.6915
     }
   },
   "score_stats": {
     "top1": 0,
-    "top3": 1,
-    "top5": 2,
-    "top8": 3,
-    "any": 3
+    "top3": 2,
+    "top5": 4,
+    "top8": 8,
+    "any": 8
   },
   "score_rank_hist": {
-    "8": 1,
+    "8": 3,
     "3": 1,
-    "4": 1
+    "4": 1,
+    "2": 1,
+    "6": 1,
+    "5": 1
   },
   "score_source_stats": {
     "djyy": {
@@ -93,30 +144,34 @@
       "hits": 0
     },
     "mc": {
-      "n": 3,
-      "hits": 2
+      "n": 8,
+      "hits": 4
     }
   },
   "market_signal_stats": {
-    "n": 5,
-    "hits": 1
+    "n": 12,
+    "hits": 2
   },
   "layered": {
-    "log_loss_final": 0.8812,
-    "rps_final": 0.1717,
-    "rps_market": 0.1762,
+    "log_loss_final": 0.9945,
+    "rps_final": 0.1783,
+    "rps_market": 0.1869,
     "goal_framework": {
-      "n": 5,
-      "hits": 3
+      "n": 12,
+      "hits": 7
     },
     "prob_bands": {
       "40-50%": {
-        "n": 1,
-        "hit_rate": 1.0
+        "n": 4,
+        "hit_rate": 0.5
       },
       "50-60%": {
         "n": 3,
         "hit_rate": 0.6667
+      },
+      "60%+": {
+        "n": 4,
+        "hit_rate": 0.5
       },
       "<40%": {
         "n": 1,
@@ -125,17 +180,29 @@
     },
     "freshness_groups": {
       "ok": {
-        "n": 1,
-        "hit_rate": 1.0
+        "n": 4,
+        "hit_rate": 0.5
       },
       "watch": {
-        "n": 4,
-        "hit_rate": 0.75
+        "n": 8,
+        "hit_rate": 0.625
       }
     }
   },
-  "biases": [],
+  "biases": [
+    {
+      "dimension": "outcome",
+      "key": "all",
+      "outcome": "draw",
+      "predicted_avg": 0.2321,
+      "actual_rate": 0.3333,
+      "gap": -0.1013,
+      "n": 12,
+      "severity": "warn",
+      "suggested_action": "reduce draw_bias"
+    }
+  ],
   "total_pnl": 0.0,
-  "generated_at": "2026-10-09T19:01:05.750492",
-  "sha256": "cfe5f98e4698b25a583016e627d2d864"
+  "generated_at": "2026-10-09T23:16:19.600705",
+  "sha256": "88433a2b057d2f2b0fbf2fbcea9e9ce3"
 }
