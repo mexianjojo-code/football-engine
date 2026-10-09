@@ -15,11 +15,19 @@ def test_stakes_from_comparison():
 
 
 def test_referee_weather_coach_from_info():
-    info = {"referee": "马宁", "weather": "小雨", "coach": {"home": "A", "away": "B"}}
+    # 2026-10-09 DJYY schema 迁移后: referees.main.name_zh / coach 在 home/away 子对象
+    info = {
+        "referees": {"main": {"name_zh": "马宁"}},
+        "weather": "小雨",
+        "home": {"coach": {"name_zh": "A"}, "formation": "4-3-3"},
+        "away": {"coach": {"name_zh": "B"}},
+    }
     ctx = _extract_context(None, info, None)
     assert ctx["referee"] == "马宁"
     assert ctx["weather"] == "小雨"
-    assert ctx["coach"] == {"home": "A", "away": "B"}
+    assert ctx["coach_home"] == "A"
+    assert ctx["coach_away"] == "B"
+    assert ctx["formation_home"] == "4-3-3"
 
 
 def test_lineups_formation_and_attackers():
