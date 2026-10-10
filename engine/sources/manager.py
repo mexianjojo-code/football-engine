@@ -16,7 +16,8 @@ from .team_match import match_pair
 
 
 # DJYY 增强是可选信号，不能因为第三方接口慢而拖垮整个预测流水线。
-DJYY_ENRICH_TIME_BUDGET = 60.0  # 秒
+# 2026-10-10 60→180s: 按天缓存下每日首轮需覆盖全量场次(30场×4接口), 180s 足够
+DJYY_ENRICH_TIME_BUDGET = 180.0  # 秒
 
 
 
