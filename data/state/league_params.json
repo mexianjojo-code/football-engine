@@ -72,10 +72,10 @@
     "draw_baseline": 0.43,
     "draw_predictions": 2,
     "draw_hits": 0,
-    "total_predictions": 26,
+    "total_predictions": 27,
     "total_hits": 13,
     "avg_overround": 0.0,
-    "last_updated": "2026-10-09"
+    "last_updated": "2026-10-10"
   },
   "美职联": {
     "base_goals": 1.35,
@@ -371,10 +371,10 @@
     "draw_baseline": 0.25,
     "draw_predictions": 0,
     "draw_hits": 0,
-    "total_predictions": 30,
-    "total_hits": 18,
+    "total_predictions": 31,
+    "total_hits": 19,
     "avg_overround": 0.0,
-    "last_updated": "2026-10-09"
+    "last_updated": "2026-10-10"
   },
   "英超": {
     "base_goals": 1.45,
