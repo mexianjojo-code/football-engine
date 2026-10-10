@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T17:53:45.079600+00:00",
+  "generated_at": "2026-10-10T18:29:55.265744+00:00",
   "parlay": {
     "n_tickets": 114,
     "n_pending": 0,
@@ -59,8 +59,8 @@
         "roi": -1.0
       }
     },
-    "leg_hit_rate": 0.0982,
-    "n_legs_settled": 438
+    "leg_hit_rate": 0.0971,
+    "n_legs_settled": 443
   },
   "tickets": {
     "parlay": [
@@ -11973,7 +11973,7 @@
         "won": false,
         "pending": true,
         "leg_results": [
-          null,
+          false,
           null
         ],
         "return": 0.0,
@@ -11985,7 +11985,7 @@
             "sel": null,
             "score": "1-1",
             "odds": 11.5,
-            "hit": null
+            "hit": false
           },
           {
             "match": "2026-10-10_周六025",
@@ -12009,8 +12009,8 @@
         "won": false,
         "pending": true,
         "leg_results": [
-          null,
-          null,
+          false,
+          false,
           null
         ],
         "return": 0.0,
@@ -12022,7 +12022,7 @@
             "sel": null,
             "score": "1-1",
             "odds": 11.5,
-            "hit": null
+            "hit": false
           },
           {
             "match": "2026-10-10_周六020",
@@ -12031,7 +12031,7 @@
             "sel": null,
             "score": "1-0",
             "odds": 11.5,
-            "hit": null
+            "hit": false
           },
           {
             "match": "2026-10-10_周六022",
@@ -12055,8 +12055,8 @@
         "won": false,
         "pending": true,
         "leg_results": [
-          null,
-          null,
+          false,
+          false,
           null
         ],
         "return": 0.0,
@@ -12068,7 +12068,7 @@
             "sel": null,
             "score": "1-1",
             "odds": 11.5,
-            "hit": null
+            "hit": false
           },
           {
             "match": "2026-10-10_周六020",
@@ -12077,7 +12077,7 @@
             "sel": null,
             "score": "1-0",
             "odds": 11.5,
-            "hit": null
+            "hit": false
           },
           {
             "match": "2026-10-10_周六022",
@@ -26844,8 +26844,8 @@
           "roi": null,
           "avg_odds": null,
           "by_type": {},
-          "leg_hit_rate": null,
-          "n_legs_settled": 0
+          "leg_hit_rate": 0.0,
+          "n_legs_settled": 5
         },
         "tickets": [
           {
@@ -26931,7 +26931,7 @@
             "won": false,
             "pending": true,
             "leg_results": [
-              null,
+              false,
               null
             ],
             "return": 0.0,
@@ -26943,7 +26943,7 @@
                 "sel": null,
                 "score": "1-1",
                 "odds": 11.5,
-                "hit": null
+                "hit": false
               },
               {
                 "match": "2026-10-10_周六025",
@@ -26967,8 +26967,8 @@
             "won": false,
             "pending": true,
             "leg_results": [
-              null,
-              null,
+              false,
+              false,
               null
             ],
             "return": 0.0,
@@ -26980,7 +26980,7 @@
                 "sel": null,
                 "score": "1-1",
                 "odds": 11.5,
-                "hit": null
+                "hit": false
               },
               {
                 "match": "2026-10-10_周六020",
@@ -26989,7 +26989,7 @@
                 "sel": null,
                 "score": "1-0",
                 "odds": 11.5,
-                "hit": null
+                "hit": false
               },
               {
                 "match": "2026-10-10_周六022",
@@ -27013,8 +27013,8 @@
             "won": false,
             "pending": true,
             "leg_results": [
-              null,
-              null,
+              false,
+              false,
               null
             ],
             "return": 0.0,
@@ -27026,7 +27026,7 @@
                 "sel": null,
                 "score": "1-1",
                 "odds": 11.5,
-                "hit": null
+                "hit": false
               },
               {
                 "match": "2026-10-10_周六020",
@@ -27035,7 +27035,7 @@
                 "sel": null,
                 "score": "1-0",
                 "odds": 11.5,
-                "hit": null
+                "hit": false
               },
               {
                 "match": "2026-10-10_周六022",

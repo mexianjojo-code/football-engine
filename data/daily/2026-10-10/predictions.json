@@ -8970,7 +8970,22 @@
       "recommended": false
     },
     "prob_band_60_risk": true,
-    "league_forbidden": true
+    "league_forbidden": true,
+    "pnl": 0.0,
+    "actual_result": "3-0",
+    "actual_home_score": 3,
+    "actual_away_score": 0,
+    "direction_correct": true,
+    "predicted_score": "1-0",
+    "score_correct": false,
+    "score_rank": 3,
+    "score_top3_hit": true,
+    "score_top5_hit": true,
+    "score_top8_hit": true,
+    "djyy_score_rank": 0,
+    "mc_score_rank": 3,
+    "market_signal_dir": "draw",
+    "market_signal_hit": false
   },
   {
     "match_id": "2026-10-10_周六020",
@@ -9435,7 +9450,22 @@
     "play_ev": {
       "ttg": 0.0341
     },
-    "kelly_edge": -0.0916
+    "kelly_edge": -0.0916,
+    "pnl": 0.0,
+    "actual_result": "1-1",
+    "actual_home_score": 1,
+    "actual_away_score": 1,
+    "direction_correct": false,
+    "predicted_score": "0-0",
+    "score_correct": false,
+    "score_rank": 5,
+    "score_top3_hit": false,
+    "score_top5_hit": true,
+    "score_top8_hit": true,
+    "djyy_score_rank": 0,
+    "mc_score_rank": 5,
+    "market_signal_dir": "home",
+    "market_signal_hit": false
   },
   {
     "match_id": "2026-10-10_周六021",
@@ -9897,7 +9927,22 @@
       "recommended": false
     },
     "prob_band_60_risk": true,
-    "kelly_edge": -0.1194
+    "kelly_edge": -0.1194,
+    "pnl": 0.0,
+    "actual_result": "6-0",
+    "actual_home_score": 6,
+    "actual_away_score": 0,
+    "direction_correct": true,
+    "predicted_score": "1-1",
+    "score_correct": false,
+    "score_rank": 0,
+    "score_top3_hit": false,
+    "score_top5_hit": false,
+    "score_top8_hit": false,
+    "djyy_score_rank": 0,
+    "mc_score_rank": 0,
+    "market_signal_dir": "away",
+    "market_signal_hit": false
   },
   {
     "match_id": "2026-10-10_周六022",

@@ -1,13 +1,13 @@
 {
   "date": "2026-10-10",
-  "n_matches": 17,
-  "hit_rate": 0.5294,
-  "hits": 9,
+  "n_matches": 20,
+  "hit_rate": 0.55,
+  "hits": 11,
   "source_brier": {
-    "model": 0.613,
-    "market": 0.5457,
-    "djyy": null,
-    "final": 0.5718
+    "model": 0.6007,
+    "market": 0.5488,
+    "djyy": 0.0842,
+    "final": 0.5504
   },
   "by_league": {
     "日职": {
@@ -23,22 +23,22 @@
       "avg_brier": 0.5233
     },
     "英超": {
-      "n": 4,
-      "hit_rate": 0.5,
-      "wilson_lower": 0.15,
-      "avg_brier": 0.4875
+      "n": 5,
+      "hit_rate": 0.4,
+      "wilson_lower": 0.1176,
+      "avg_brier": 0.5831
     },
     "意甲": {
-      "n": 1,
-      "hit_rate": 0.0,
-      "wilson_lower": 0.0,
-      "avg_brier": 0.8566
+      "n": 2,
+      "hit_rate": 0.5,
+      "wilson_lower": 0.0945,
+      "avg_brier": 0.4858
     },
     "德甲": {
-      "n": 5,
-      "hit_rate": 0.6,
-      "wilson_lower": 0.2307,
-      "avg_brier": 0.6765
+      "n": 6,
+      "hit_rate": 0.6667,
+      "wilson_lower": 0.3,
+      "avg_brier": 0.5982
     },
     "西甲": {
       "n": 1,
@@ -67,10 +67,10 @@
       "avg_brier": 0.6743
     },
     "high": {
-      "n": 8,
-      "hit_rate": 0.75,
-      "wilson_lower": 0.4093,
-      "avg_brier": 0.4366
+      "n": 11,
+      "hit_rate": 0.7273,
+      "wilson_lower": 0.4343,
+      "avg_brier": 0.4345
     },
     "low": {
       "n": 1,
@@ -87,33 +87,33 @@
       "avg_brier": 0.7404
     },
     "1.0-1.5": {
-      "n": 5,
-      "hit_rate": 0.8,
-      "wilson_lower": 0.3755,
-      "avg_brier": 0.3898
+      "n": 7,
+      "hit_rate": 0.8571,
+      "wilson_lower": 0.4869,
+      "avg_brier": 0.3244
     },
     "1.5-2.0": {
-      "n": 7,
-      "hit_rate": 0.5714,
-      "wilson_lower": 0.2505,
-      "avg_brier": 0.5813
+      "n": 8,
+      "hit_rate": 0.5,
+      "wilson_lower": 0.2152,
+      "avg_brier": 0.6293
     }
   },
   "score_stats": {
     "top1": 2,
-    "top3": 5,
-    "top5": 7,
-    "top8": 10,
-    "any": 10
+    "top3": 6,
+    "top5": 9,
+    "top8": 12,
+    "any": 12
   },
   "score_rank_hist": {
     "1": 2,
     "8": 2,
-    "3": 2,
+    "3": 3,
     "4": 1,
     "7": 1,
     "2": 1,
-    "5": 1
+    "5": 2
   },
   "score_source_stats": {
     "djyy": {
@@ -121,21 +121,21 @@
       "hits": 0
     },
     "mc": {
-      "n": 10,
-      "hits": 7
+      "n": 12,
+      "hits": 9
     }
   },
   "market_signal_stats": {
-    "n": 17,
+    "n": 20,
     "hits": 7
   },
   "layered": {
-    "log_loss_final": 0.9715,
-    "rps_final": 0.1989,
-    "rps_market": 0.1993,
+    "log_loss_final": 0.9405,
+    "rps_final": 0.1847,
+    "rps_market": 0.1914,
     "goal_framework": {
-      "n": 17,
-      "hits": 11
+      "n": 20,
+      "hits": 13
     },
     "prob_bands": {
       "40-50%": {
@@ -143,12 +143,12 @@
         "hit_rate": 0.3333
       },
       "50-60%": {
-        "n": 5,
-        "hit_rate": 0.6
+        "n": 6,
+        "hit_rate": 0.5
       },
       "60%+": {
-        "n": 5,
-        "hit_rate": 0.8
+        "n": 7,
+        "hit_rate": 0.8571
       },
       "<40%": {
         "n": 1,
@@ -157,29 +157,29 @@
     },
     "freshness_groups": {
       "ok": {
-        "n": 8,
-        "hit_rate": 0.625
+        "n": 9,
+        "hit_rate": 0.5556
       },
       "watch": {
-        "n": 9,
-        "hit_rate": 0.4444
+        "n": 11,
+        "hit_rate": 0.5455
       }
     }
   },
   "biases": [
     {
       "dimension": "league",
-      "key": "德甲",
+      "key": "英超",
       "outcome": "home",
-      "predicted_avg": 0.3527,
-      "actual_rate": 0.2,
-      "gap": 0.1527,
+      "predicted_avg": 0.4999,
+      "actual_rate": 0.6,
+      "gap": -0.1001,
       "n": 5,
       "severity": "warn",
-      "suggested_action": "reduce home_adv_weight"
+      "suggested_action": "increase home_adv_weight"
     }
   ],
   "total_pnl": 0.0,
-  "generated_at": "2026-10-10T17:52:59.933359",
-  "sha256": "d769d50bc31ea03241e9f8900eaa9d1a"
+  "generated_at": "2026-10-10T18:29:06.898319",
+  "sha256": "b6c9ccc12dd84139bf0c2549ba995c02"
 }
