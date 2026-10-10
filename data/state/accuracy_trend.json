@@ -1,15 +1,15 @@
 {
   "generated_at": "2026-10-10",
-  "total_matches": 980,
+  "total_matches": 982,
   "date_range": [
     "2026-07-19",
     "2026-10-10"
   ],
   "overall": {
-    "hit_rate": 0.5388,
+    "hit_rate": 0.5387,
     "brier_final": 0.5823,
-    "brier_model": 0.6156,
-    "brier_market": 0.5706,
+    "brier_model": 0.6157,
+    "brier_market": 0.5707,
     "brier_djyy": 0.6385
   },
   "daily": [
@@ -963,21 +963,21 @@
     },
     {
       "date": "2026-10-10",
-      "n": 25,
-      "hits": 15,
-      "hit_rate": 0.6,
-      "cum_hit_rate": 0.5388,
-      "brier_final": 0.5152,
-      "brier_model": 0.5836,
-      "brier_market": 0.5234,
+      "n": 27,
+      "hits": 16,
+      "hit_rate": 0.5926,
+      "cum_hit_rate": 0.5387,
+      "brier_final": 0.5227,
+      "brier_model": 0.5896,
+      "brier_market": 0.5303,
       "brier_djyy": 0.4078,
       "pnl": 0.0
     }
   ],
   "rolling7": {
-    "n": 70,
-    "hit_rate": 0.5429,
-    "brier_final": 0.5697,
+    "n": 72,
+    "hit_rate": 0.5417,
+    "brier_final": 0.5707,
     "pnl": 0.0
   },
   "prev7": {
@@ -996,9 +996,9 @@
     },
     {
       "layer": "意甲",
-      "n": 52,
-      "hit_rate": 0.5577,
-      "brier_final": 0.5549
+      "n": 53,
+      "hit_rate": 0.566,
+      "brier_final": 0.5474
     },
     {
       "layer": "欧国联",
@@ -1086,9 +1086,9 @@
     },
     {
       "layer": "法甲",
-      "n": 31,
-      "hit_rate": 0.6129,
-      "brier_final": 0.576
+      "n": 32,
+      "hit_rate": 0.5938,
+      "brier_final": 0.5914
     },
     {
       "layer": "沙职",
@@ -1256,9 +1256,9 @@
     },
     {
       "layer": "1.0-1.5",
-      "n": 295,
-      "hit_rate": 0.7322,
-      "brier_final": 0.4465
+      "n": 297,
+      "hit_rate": 0.7306,
+      "brier_final": 0.4476
     },
     {
       "layer": "2.0-3.0",
@@ -1282,9 +1282,9 @@
     },
     {
       "layer": "high",
-      "n": 322,
-      "hit_rate": 0.6677,
-      "brier_final": 0.4841
+      "n": 324,
+      "hit_rate": 0.6667,
+      "brier_final": 0.4849
     },
     {
       "layer": "low",

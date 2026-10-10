@@ -1,7 +1,7 @@
 {
-  "temperature": 0.898548,
-  "n_samples": 554,
-  "ece_before": 0.1009,
-  "ece_after": 0.1039,
+  "temperature": 0.900756,
+  "n_samples": 556,
+  "ece_before": 0.0994,
+  "ece_after": 0.1048,
   "fitted": true
 }
