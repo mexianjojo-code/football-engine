@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-10T02:47:05.593272+00:00",
+  "generated_at": "2026-10-10T03:58:43.049216+00:00",
   "parlay": {
-    "n_tickets": 115,
-    "n_pending": 1,
+    "n_tickets": 119,
+    "n_pending": 5,
     "n_settled": 114,
     "n_won": 31,
     "hit_rate": 0.2719,
     "stake": 623.2,
-    "stake_committed": 637.13,
-    "stake_pending": 13.93,
+    "stake_committed": 646.42,
+    "stake_pending": 23.22,
     "return": 748.38,
     "roi": 0.2009,
     "avg_odds": 6.86,
@@ -4551,9 +4551,9 @@
       {
         "date": "2026-10-10",
         "type": "2串1",
-        "stake": 13.93,
-        "potential": 69.57,
-        "total_odds": 4.99,
+        "stake": 6.43,
+        "potential": 51.82,
+        "total_odds": 8.06,
         "odds_source": null,
         "note": "待赛",
         "won": false,
@@ -4565,12 +4565,12 @@
         "return": 0.0,
         "legs": [
           {
-            "match": "2026-10-10_周六001",
-            "home": "大阪樱花",
-            "away": "横滨水手",
-            "sel": "home",
+            "match": "2026-10-10_周六030",
+            "home": "圣保罗",
+            "away": "维多利亚",
+            "sel": "draw",
             "score": null,
-            "odds": 2.2,
+            "odds": 3.55,
             "hit": null
           },
           {
@@ -4580,6 +4580,170 @@
             "sel": "away",
             "score": null,
             "odds": 2.27,
+            "hit": null
+          }
+        ]
+      },
+      {
+        "date": "2026-10-10",
+        "type": "2串1",
+        "stake": 6.39,
+        "potential": 51.04,
+        "total_odds": 7.99,
+        "odds_source": null,
+        "note": "待赛",
+        "won": false,
+        "pending": true,
+        "leg_results": [
+          null,
+          null
+        ],
+        "return": 0.0,
+        "legs": [
+          {
+            "match": "2026-10-10_周六030",
+            "home": "圣保罗",
+            "away": "维多利亚",
+            "sel": "draw",
+            "score": null,
+            "odds": 3.55,
+            "hit": null
+          },
+          {
+            "match": "2026-10-10_周六001",
+            "home": "大阪樱花",
+            "away": "横滨水手",
+            "sel": "home",
+            "score": null,
+            "odds": 2.25,
+            "hit": null
+          }
+        ]
+      },
+      {
+        "date": "2026-10-10",
+        "type": "2串1",
+        "stake": 2.71,
+        "potential": 13.84,
+        "total_odds": 5.11,
+        "odds_source": null,
+        "note": "待赛",
+        "won": false,
+        "pending": true,
+        "leg_results": [
+          null,
+          null
+        ],
+        "return": 0.0,
+        "legs": [
+          {
+            "match": "2026-10-10_周六013",
+            "home": "伊普斯",
+            "away": "富勒姆",
+            "sel": "away",
+            "score": null,
+            "odds": 2.27,
+            "hit": null
+          },
+          {
+            "match": "2026-10-10_周六001",
+            "home": "大阪樱花",
+            "away": "横滨水手",
+            "sel": "home",
+            "score": null,
+            "odds": 2.25,
+            "hit": null
+          }
+        ]
+      },
+      {
+        "date": "2026-10-10",
+        "type": "3串1",
+        "stake": 3.25,
+        "potential": 58.93,
+        "total_odds": 18.13,
+        "odds_source": null,
+        "note": "待赛",
+        "won": false,
+        "pending": true,
+        "leg_results": [
+          null,
+          null,
+          null
+        ],
+        "return": 0.0,
+        "legs": [
+          {
+            "match": "2026-10-10_周六030",
+            "home": "圣保罗",
+            "away": "维多利亚",
+            "sel": "draw",
+            "score": null,
+            "odds": 3.55,
+            "hit": null
+          },
+          {
+            "match": "2026-10-10_周六013",
+            "home": "伊普斯",
+            "away": "富勒姆",
+            "sel": "away",
+            "score": null,
+            "odds": 2.27,
+            "hit": null
+          },
+          {
+            "match": "2026-10-10_周六001",
+            "home": "大阪樱花",
+            "away": "横滨水手",
+            "sel": "home",
+            "score": null,
+            "odds": 2.25,
+            "hit": null
+          }
+        ]
+      },
+      {
+        "date": "2026-10-10",
+        "type": "3串4",
+        "stake": 4.44,
+        "potential": 43.61,
+        "total_odds": 9.82,
+        "odds_source": null,
+        "note": "待赛",
+        "won": false,
+        "pending": true,
+        "leg_results": [
+          null,
+          null,
+          null
+        ],
+        "return": 0.0,
+        "legs": [
+          {
+            "match": "2026-10-10_周六030",
+            "home": "圣保罗",
+            "away": "维多利亚",
+            "sel": "draw",
+            "score": null,
+            "odds": 3.55,
+            "hit": null
+          },
+          {
+            "match": "2026-10-10_周六013",
+            "home": "伊普斯",
+            "away": "富勒姆",
+            "sel": "away",
+            "score": null,
+            "odds": 2.27,
+            "hit": null
+          },
+          {
+            "match": "2026-10-10_周六001",
+            "home": "大阪樱花",
+            "away": "横滨水手",
+            "sel": "home",
+            "score": null,
+            "odds": 2.25,
             "hit": null
           }
         ]
@@ -26864,14 +27028,14 @@
     "2026-10-10": {
       "parlay": {
         "stats": {
-          "n_tickets": 1,
-          "n_pending": 1,
+          "n_tickets": 5,
+          "n_pending": 5,
           "n_settled": 0,
           "n_won": 0,
           "hit_rate": null,
           "stake": 0,
-          "stake_committed": 13.93,
-          "stake_pending": 13.93,
+          "stake_committed": 23.22,
+          "stake_pending": 23.22,
           "return": 0,
           "roi": null,
           "avg_odds": null,
@@ -26881,9 +27045,9 @@
           {
             "date": "2026-10-10",
             "type": "2串1",
-            "stake": 13.93,
-            "potential": 69.57,
-            "total_odds": 4.99,
+            "stake": 6.43,
+            "potential": 51.82,
+            "total_odds": 8.06,
             "odds_source": null,
             "note": "待赛",
             "won": false,
@@ -26895,12 +27059,12 @@
             "return": 0.0,
             "legs": [
               {
-                "match": "2026-10-10_周六001",
-                "home": "大阪樱花",
-                "away": "横滨水手",
-                "sel": "home",
+                "match": "2026-10-10_周六030",
+                "home": "圣保罗",
+                "away": "维多利亚",
+                "sel": "draw",
                 "score": null,
-                "odds": 2.2,
+                "odds": 3.55,
                 "hit": null
               },
               {
@@ -26910,6 +27074,170 @@
                 "sel": "away",
                 "score": null,
                 "odds": 2.27,
+                "hit": null
+              }
+            ]
+          },
+          {
+            "date": "2026-10-10",
+            "type": "2串1",
+            "stake": 6.39,
+            "potential": 51.04,
+            "total_odds": 7.99,
+            "odds_source": null,
+            "note": "待赛",
+            "won": false,
+            "pending": true,
+            "leg_results": [
+              null,
+              null
+            ],
+            "return": 0.0,
+            "legs": [
+              {
+                "match": "2026-10-10_周六030",
+                "home": "圣保罗",
+                "away": "维多利亚",
+                "sel": "draw",
+                "score": null,
+                "odds": 3.55,
+                "hit": null
+              },
+              {
+                "match": "2026-10-10_周六001",
+                "home": "大阪樱花",
+                "away": "横滨水手",
+                "sel": "home",
+                "score": null,
+                "odds": 2.25,
+                "hit": null
+              }
+            ]
+          },
+          {
+            "date": "2026-10-10",
+            "type": "2串1",
+            "stake": 2.71,
+            "potential": 13.84,
+            "total_odds": 5.11,
+            "odds_source": null,
+            "note": "待赛",
+            "won": false,
+            "pending": true,
+            "leg_results": [
+              null,
+              null
+            ],
+            "return": 0.0,
+            "legs": [
+              {
+                "match": "2026-10-10_周六013",
+                "home": "伊普斯",
+                "away": "富勒姆",
+                "sel": "away",
+                "score": null,
+                "odds": 2.27,
+                "hit": null
+              },
+              {
+                "match": "2026-10-10_周六001",
+                "home": "大阪樱花",
+                "away": "横滨水手",
+                "sel": "home",
+                "score": null,
+                "odds": 2.25,
+                "hit": null
+              }
+            ]
+          },
+          {
+            "date": "2026-10-10",
+            "type": "3串1",
+            "stake": 3.25,
+            "potential": 58.93,
+            "total_odds": 18.13,
+            "odds_source": null,
+            "note": "待赛",
+            "won": false,
+            "pending": true,
+            "leg_results": [
+              null,
+              null,
+              null
+            ],
+            "return": 0.0,
+            "legs": [
+              {
+                "match": "2026-10-10_周六030",
+                "home": "圣保罗",
+                "away": "维多利亚",
+                "sel": "draw",
+                "score": null,
+                "odds": 3.55,
+                "hit": null
+              },
+              {
+                "match": "2026-10-10_周六013",
+                "home": "伊普斯",
+                "away": "富勒姆",
+                "sel": "away",
+                "score": null,
+                "odds": 2.27,
+                "hit": null
+              },
+              {
+                "match": "2026-10-10_周六001",
+                "home": "大阪樱花",
+                "away": "横滨水手",
+                "sel": "home",
+                "score": null,
+                "odds": 2.25,
+                "hit": null
+              }
+            ]
+          },
+          {
+            "date": "2026-10-10",
+            "type": "3串4",
+            "stake": 4.44,
+            "potential": 43.61,
+            "total_odds": 9.82,
+            "odds_source": null,
+            "note": "待赛",
+            "won": false,
+            "pending": true,
+            "leg_results": [
+              null,
+              null,
+              null
+            ],
+            "return": 0.0,
+            "legs": [
+              {
+                "match": "2026-10-10_周六030",
+                "home": "圣保罗",
+                "away": "维多利亚",
+                "sel": "draw",
+                "score": null,
+                "odds": 3.55,
+                "hit": null
+              },
+              {
+                "match": "2026-10-10_周六013",
+                "home": "伊普斯",
+                "away": "富勒姆",
+                "sel": "away",
+                "score": null,
+                "odds": 2.27,
+                "hit": null
+              },
+              {
+                "match": "2026-10-10_周六001",
+                "home": "大阪樱花",
+                "away": "横滨水手",
+                "sel": "home",
+                "score": null,
+                "odds": 2.25,
                 "hit": null
               }
             ]
