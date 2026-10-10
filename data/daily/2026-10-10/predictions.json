@@ -11368,7 +11368,22 @@
       "ttg": 0.2092,
       "hafu": 0.2164
     },
-    "kelly_edge": -0.1906
+    "kelly_edge": -0.1906,
+    "pnl": 0.0,
+    "actual_result": "1-2",
+    "actual_home_score": 1,
+    "actual_away_score": 2,
+    "direction_correct": true,
+    "predicted_score": "0-1",
+    "score_correct": false,
+    "score_rank": 7,
+    "score_top3_hit": false,
+    "score_top5_hit": false,
+    "score_top8_hit": true,
+    "djyy_score_rank": 0,
+    "mc_score_rank": 7,
+    "market_signal_dir": "away",
+    "market_signal_hit": true
   },
   {
     "match_id": "2026-10-10_周六025",

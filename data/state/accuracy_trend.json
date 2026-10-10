@@ -1,16 +1,16 @@
 {
   "generated_at": "2026-10-10",
-  "total_matches": 977,
+  "total_matches": 978,
   "date_range": [
     "2026-07-19",
     "2026-10-10"
   ],
   "overall": {
-    "hit_rate": 0.5384,
-    "brier_final": 0.5826,
-    "brier_model": 0.6156,
-    "brier_market": 0.571,
-    "brier_djyy": 0.6389
+    "hit_rate": 0.5389,
+    "brier_final": 0.5821,
+    "brier_model": 0.6151,
+    "brier_market": 0.5704,
+    "brier_djyy": 0.6355
   },
   "daily": [
     {
@@ -963,21 +963,21 @@
     },
     {
       "date": "2026-10-10",
-      "n": 22,
-      "hits": 13,
-      "hit_rate": 0.5909,
-      "cum_hit_rate": 0.5384,
-      "brier_final": 0.5193,
-      "brier_model": 0.5769,
-      "brier_market": 0.534,
-      "brier_djyy": 0.1985,
+      "n": 23,
+      "hits": 14,
+      "hit_rate": 0.6087,
+      "cum_hit_rate": 0.5389,
+      "brier_final": 0.5038,
+      "brier_model": 0.5577,
+      "brier_market": 0.5121,
+      "brier_djyy": 0.2032,
       "pnl": 0.0
     }
   ],
   "rolling7": {
-    "n": 67,
-    "hit_rate": 0.5373,
-    "brier_final": 0.5702,
+    "n": 68,
+    "hit_rate": 0.5441,
+    "brier_final": 0.568,
     "pnl": 0.0
   },
   "prev7": {
@@ -1056,9 +1056,9 @@
     },
     {
       "layer": "葡超",
-      "n": 40,
-      "hit_rate": 0.575,
-      "brier_final": 0.5322
+      "n": 41,
+      "hit_rate": 0.5854,
+      "brier_final": 0.5232
     },
     {
       "layer": "巴甲",
@@ -1262,9 +1262,9 @@
     },
     {
       "layer": "1.0-1.5",
-      "n": 292,
-      "hit_rate": 0.7329,
-      "brier_final": 0.4461
+      "n": 293,
+      "hit_rate": 0.7338,
+      "brier_final": 0.4451
     },
     {
       "layer": "3.0+",
@@ -1282,9 +1282,9 @@
     },
     {
       "layer": "high",
-      "n": 319,
-      "hit_rate": 0.6677,
-      "brier_final": 0.4841
+      "n": 320,
+      "hit_rate": 0.6687,
+      "brier_final": 0.4831
     },
     {
       "layer": "low",

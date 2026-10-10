@@ -1,8 +1,8 @@
 {
   "n_leagues": 42,
-  "n_matches": 1005,
+  "n_matches": 1006,
   "external_added": 29,
-  "generated_at": "2026-10-10T18:56:16.540476",
+  "generated_at": "2026-10-10T19:26:23.758443",
   "leagues": [
     {
       "league": "西甲",
@@ -210,20 +210,20 @@
     },
     {
       "league": "葡超",
-      "n": 40,
-      "hit_rate": 0.575,
-      "avg_odds": 1.775,
-      "roi": -0.104,
-      "avg_confidence": 0.2111,
+      "n": 41,
+      "hit_rate": 0.5854,
+      "avg_odds": 1.76,
+      "roi": -0.0971,
+      "avg_confidence": 0.2137,
       "verdict": "谨慎",
       "recent_n": 5,
-      "recent_hits": 2,
-      "recent_hit_rate": 0.4,
-      "recent_roi": -0.354,
+      "recent_hits": 3,
+      "recent_hit_rate": 0.6,
+      "recent_roi": -0.118,
       "recent10_n": 10,
-      "recent10_hits": 5,
-      "recent10_hit_rate": 0.5,
-      "recent10_roi": -0.28
+      "recent10_hits": 6,
+      "recent10_hit_rate": 0.6,
+      "recent10_roi": -0.162
     },
     {
       "league": "芬超",
