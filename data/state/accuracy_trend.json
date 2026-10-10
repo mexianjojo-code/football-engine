@@ -1,15 +1,15 @@
 {
   "generated_at": "2026-10-10",
-  "total_matches": 955,
+  "total_matches": 970,
   "date_range": [
     "2026-07-19",
-    "2026-10-09"
+    "2026-10-10"
   ],
   "overall": {
-    "hit_rate": 0.5372,
+    "hit_rate": 0.5371,
     "brier_final": 0.584,
-    "brier_model": 0.6165,
-    "brier_market": 0.5718,
+    "brier_model": 0.6169,
+    "brier_market": 0.5715,
     "brier_djyy": 0.646
   },
   "daily": [
@@ -960,27 +960,39 @@
       "brier_market": 0.6372,
       "brier_djyy": null,
       "pnl": 0.0
+    },
+    {
+      "date": "2026-10-10",
+      "n": 15,
+      "hits": 8,
+      "hit_rate": 0.5333,
+      "cum_hit_rate": 0.5371,
+      "brier_final": 0.58,
+      "brier_model": 0.6448,
+      "brier_market": 0.5501,
+      "brier_djyy": null,
+      "pnl": 0.0
     }
   ],
   "rolling7": {
     "n": 60,
-    "hit_rate": 0.6167,
-    "brier_final": 0.5294,
+    "hit_rate": 0.5167,
+    "brier_final": 0.5789,
     "pnl": 0.0
   },
   "prev7": {
-    "n": 69,
-    "hit_rate": 0.6522,
-    "brier_final": 0.5082,
+    "n": 80,
+    "hit_rate": 0.7,
+    "brier_final": 0.4883,
     "pnl": 0.0
   },
-  "verdict": "命中率下降 -4pt",
+  "verdict": "命中率下降 -18pt",
   "by_league": [
     {
       "layer": "西甲",
-      "n": 70,
-      "hit_rate": 0.5429,
-      "brier_final": 0.5769
+      "n": 71,
+      "hit_rate": 0.5493,
+      "brier_final": 0.5727
     },
     {
       "layer": "欧国联",
@@ -996,27 +1008,27 @@
     },
     {
       "layer": "意甲",
-      "n": 50,
-      "hit_rate": 0.56,
-      "brier_final": 0.5576
+      "n": 51,
+      "hit_rate": 0.549,
+      "brier_final": 0.5635
     },
     {
       "layer": "英超",
+      "n": 49,
+      "hit_rate": 0.4286,
+      "brier_final": 0.6429
+    },
+    {
+      "layer": "K1联赛",
       "n": 45,
-      "hit_rate": 0.4222,
-      "brier_final": 0.6567
+      "hit_rate": 0.5111,
+      "brier_final": 0.6456
     },
     {
       "layer": "欧罗巴",
       "n": 44,
       "hit_rate": 0.5,
       "brier_final": 0.6113
-    },
-    {
-      "layer": "K1联赛",
-      "n": 43,
-      "hit_rate": 0.5116,
-      "brier_final": 0.6513
     },
     {
       "layer": "挪超",
@@ -1029,6 +1041,12 @@
       "n": 42,
       "hit_rate": 0.6429,
       "brier_final": 0.5406
+    },
+    {
+      "layer": "德甲",
+      "n": 42,
+      "hit_rate": 0.5,
+      "brier_final": 0.6105
     },
     {
       "layer": "瑞典超",
@@ -1049,10 +1067,10 @@
       "brier_final": 0.6517
     },
     {
-      "layer": "德甲",
-      "n": 37,
-      "hit_rate": 0.4865,
-      "brier_final": 0.6016
+      "layer": "日职",
+      "n": 34,
+      "hit_rate": 0.6471,
+      "brier_final": 0.5663
     },
     {
       "layer": "芬超",
@@ -1065,12 +1083,6 @@
       "n": 33,
       "hit_rate": 0.4242,
       "brier_final": 0.6494
-    },
-    {
-      "layer": "日职",
-      "n": 32,
-      "hit_rate": 0.6562,
-      "brier_final": 0.5645
     },
     {
       "layer": "法甲",
@@ -1238,20 +1250,20 @@
   "by_odds_band": [
     {
       "layer": "1.5-2.0",
-      "n": 343,
-      "hit_rate": 0.5044,
-      "brier_final": 0.6256
+      "n": 349,
+      "hit_rate": 0.5072,
+      "brier_final": 0.624
     },
     {
       "layer": "2.0-3.0",
-      "n": 288,
-      "hit_rate": 0.4236,
-      "brier_final": 0.6596
+      "n": 293,
+      "hit_rate": 0.4198,
+      "brier_final": 0.661
     },
     {
       "layer": "1.0-1.5",
-      "n": 284,
-      "hit_rate": 0.7289,
+      "n": 288,
+      "hit_rate": 0.7292,
       "brier_final": 0.4501
     },
     {
@@ -1264,21 +1276,21 @@
   "by_conf_tier": [
     {
       "layer": "mid",
-      "n": 511,
-      "hit_rate": 0.4912,
-      "brier_final": 0.6215
+      "n": 518,
+      "hit_rate": 0.4903,
+      "brier_final": 0.6218
     },
     {
       "layer": "high",
-      "n": 306,
-      "hit_rate": 0.6634,
-      "brier_final": 0.4877
+      "n": 313,
+      "hit_rate": 0.6645,
+      "brier_final": 0.4875
     },
     {
       "layer": "low",
-      "n": 138,
-      "hit_rate": 0.4275,
-      "brier_final": 0.659
+      "n": 139,
+      "hit_rate": 0.4245,
+      "brier_final": 0.6603
     }
   ]
 }
