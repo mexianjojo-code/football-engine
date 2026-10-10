@@ -936,10 +936,10 @@
     "rest_days": 3
   },
   "费耶诺德": {
-    "elo": 1623.1,
-    "attack": 1.0909,
-    "defense": 0.8819,
-    "form": 0.0532,
+    "elo": 1651.5,
+    "attack": 1.0549,
+    "defense": 0.7959,
+    "form": 0.3372,
     "injury": 0.0,
     "rest_days": 3
   },
@@ -1256,10 +1256,10 @@
     "rest_days": 3
   },
   "阿尔克马尔": {
-    "elo": 1683.8,
-    "attack": 1.0701,
-    "defense": 0.652,
-    "form": 0.1385,
+    "elo": 1655.4,
+    "attack": 0.9658,
+    "defense": 0.6588,
+    "form": -0.203,
     "injury": 0.0,
     "rest_days": 3
   },
@@ -4824,10 +4824,10 @@
     "rest_days": 3
   },
   "巴萨": {
-    "elo": 1868.1,
-    "attack": 1.4209,
-    "defense": 0.6578,
-    "form": 0.9245,
+    "elo": 1873.6,
+    "attack": 1.3879,
+    "defense": 0.5937,
+    "form": 0.9471,
     "injury": 0.0,
     "rest_days": 3
   },
@@ -10152,10 +10152,10 @@
     "rest_days": 3
   },
   "赫塔菲": {
-    "elo": 1474.2,
-    "attack": 0.5985,
-    "defense": 0.6544,
-    "form": 0.0331,
+    "elo": 1468.7,
+    "attack": 0.5401,
+    "defense": 0.6962,
+    "form": -0.2768,
     "injury": 0.0,
     "rest_days": 3
   },
