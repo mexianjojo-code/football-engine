@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T03:58:43.049216+00:00",
+  "generated_at": "2026-10-10T09:50:36.981597+00:00",
   "parlay": {
     "n_tickets": 119,
     "n_pending": 5,
@@ -4610,9 +4610,9 @@
             "hit": null
           },
           {
-            "match": "2026-10-10_周六001",
-            "home": "大阪樱花",
-            "away": "横滨水手",
+            "match": "2026-10-10_周六008",
+            "home": "柏林联合",
+            "away": "埃沃斯堡",
             "sel": "home",
             "score": null,
             "odds": 2.25,
@@ -4646,9 +4646,9 @@
             "hit": null
           },
           {
-            "match": "2026-10-10_周六001",
-            "home": "大阪樱花",
-            "away": "横滨水手",
+            "match": "2026-10-10_周六008",
+            "home": "柏林联合",
+            "away": "埃沃斯堡",
             "sel": "home",
             "score": null,
             "odds": 2.25,
@@ -4692,9 +4692,9 @@
             "hit": null
           },
           {
-            "match": "2026-10-10_周六001",
-            "home": "大阪樱花",
-            "away": "横滨水手",
+            "match": "2026-10-10_周六008",
+            "home": "柏林联合",
+            "away": "埃沃斯堡",
             "sel": "home",
             "score": null,
             "odds": 2.25,
@@ -4738,9 +4738,9 @@
             "hit": null
           },
           {
-            "match": "2026-10-10_周六001",
-            "home": "大阪樱花",
-            "away": "横滨水手",
+            "match": "2026-10-10_周六008",
+            "home": "柏林联合",
+            "away": "埃沃斯堡",
             "sel": "home",
             "score": null,
             "odds": 2.25,
@@ -12094,8 +12094,8 @@
         "date": "2026-10-10",
         "type": "比分2串1",
         "stake": 2.0,
-        "potential": 286.0,
-        "total_odds": 143.0,
+        "potential": 299.0,
+        "total_odds": 149.5,
         "odds_source": "official",
         "note": "待赛",
         "won": false,
@@ -12112,7 +12112,7 @@
             "away": "法兰克福",
             "sel": null,
             "score": "1-1",
-            "odds": 11.0,
+            "odds": 11.5,
             "hit": null
           },
           {
@@ -12202,8 +12202,8 @@
         "date": "2026-10-10",
         "type": "比分3串1",
         "stake": 2.0,
-        "potential": 3168.0,
-        "total_odds": 1584.0,
+        "potential": 3312.0,
+        "total_odds": 1656.0,
         "odds_source": "official",
         "note": "待赛",
         "won": false,
@@ -12221,7 +12221,7 @@
             "away": "法兰克福",
             "sel": null,
             "score": "1-1",
-            "odds": 11.0,
+            "odds": 11.5,
             "hit": null
           },
           {
@@ -12248,8 +12248,8 @@
         "date": "2026-10-10",
         "type": "比分3串4(容错)",
         "stake": 8.0,
-        "potential": 3984.0,
-        "total_odds": 1584.0,
+        "potential": 4152.0,
+        "total_odds": 1656.0,
         "odds_source": "official",
         "note": "待赛",
         "won": false,
@@ -12267,7 +12267,7 @@
             "away": "法兰克福",
             "sel": null,
             "score": "1-1",
-            "odds": 11.0,
+            "odds": 11.5,
             "hit": null
           },
           {
@@ -27104,9 +27104,9 @@
                 "hit": null
               },
               {
-                "match": "2026-10-10_周六001",
-                "home": "大阪樱花",
-                "away": "横滨水手",
+                "match": "2026-10-10_周六008",
+                "home": "柏林联合",
+                "away": "埃沃斯堡",
                 "sel": "home",
                 "score": null,
                 "odds": 2.25,
@@ -27140,9 +27140,9 @@
                 "hit": null
               },
               {
-                "match": "2026-10-10_周六001",
-                "home": "大阪樱花",
-                "away": "横滨水手",
+                "match": "2026-10-10_周六008",
+                "home": "柏林联合",
+                "away": "埃沃斯堡",
                 "sel": "home",
                 "score": null,
                 "odds": 2.25,
@@ -27186,9 +27186,9 @@
                 "hit": null
               },
               {
-                "match": "2026-10-10_周六001",
-                "home": "大阪樱花",
-                "away": "横滨水手",
+                "match": "2026-10-10_周六008",
+                "home": "柏林联合",
+                "away": "埃沃斯堡",
                 "sel": "home",
                 "score": null,
                 "odds": 2.25,
@@ -27232,9 +27232,9 @@
                 "hit": null
               },
               {
-                "match": "2026-10-10_周六001",
-                "home": "大阪樱花",
-                "away": "横滨水手",
+                "match": "2026-10-10_周六008",
+                "home": "柏林联合",
+                "away": "埃沃斯堡",
                 "sel": "home",
                 "score": null,
                 "odds": 2.25,
@@ -27266,8 +27266,8 @@
             "date": "2026-10-10",
             "type": "比分2串1",
             "stake": 2.0,
-            "potential": 286.0,
-            "total_odds": 143.0,
+            "potential": 299.0,
+            "total_odds": 149.5,
             "odds_source": "official",
             "note": "待赛",
             "won": false,
@@ -27284,7 +27284,7 @@
                 "away": "法兰克福",
                 "sel": null,
                 "score": "1-1",
-                "odds": 11.0,
+                "odds": 11.5,
                 "hit": null
               },
               {
@@ -27374,8 +27374,8 @@
             "date": "2026-10-10",
             "type": "比分3串1",
             "stake": 2.0,
-            "potential": 3168.0,
-            "total_odds": 1584.0,
+            "potential": 3312.0,
+            "total_odds": 1656.0,
             "odds_source": "official",
             "note": "待赛",
             "won": false,
@@ -27393,7 +27393,7 @@
                 "away": "法兰克福",
                 "sel": null,
                 "score": "1-1",
-                "odds": 11.0,
+                "odds": 11.5,
                 "hit": null
               },
               {
@@ -27420,8 +27420,8 @@
             "date": "2026-10-10",
             "type": "比分3串4(容错)",
             "stake": 8.0,
-            "potential": 3984.0,
-            "total_odds": 1584.0,
+            "potential": 4152.0,
+            "total_odds": 1656.0,
             "odds_source": "official",
             "note": "待赛",
             "won": false,
@@ -27439,7 +27439,7 @@
                 "away": "法兰克福",
                 "sel": null,
                 "score": "1-1",
-                "odds": 11.0,
+                "odds": 11.5,
                 "hit": null
               },
               {
