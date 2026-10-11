@@ -1104,10 +1104,10 @@
     "rest_days": 3
   },
   "本菲卡": {
-    "elo": 1896.6,
-    "attack": 1.0988,
-    "defense": 0.3444,
-    "form": 0.3772,
+    "elo": 1899.2,
+    "attack": 1.062,
+    "defense": 0.3108,
+    "form": 0.564,
     "injury": 0.0,
     "rest_days": 3
   },
@@ -1648,10 +1648,10 @@
     "rest_days": 3
   },
   "吉马良斯": {
-    "elo": 1432.4,
-    "attack": 0.6169,
-    "defense": 0.8311,
-    "form": -0.4968,
+    "elo": 1429.8,
+    "attack": 0.5568,
+    "defense": 0.8204,
+    "form": -0.6478,
     "injury": 0.0,
     "rest_days": 3
   },
@@ -5088,10 +5088,10 @@
     "rest_days": 3
   },
   "奥萨苏纳": {
-    "elo": 1494.9,
-    "attack": 0.5881,
-    "defense": 0.9032,
-    "form": -0.4047,
+    "elo": 1471.8,
+    "attack": 0.6011,
+    "defense": 0.9911,
+    "form": -0.5833,
     "injury": 0.0,
     "rest_days": 3
   },
@@ -10280,10 +10280,10 @@
     "rest_days": 3
   },
   "贝蒂斯": {
-    "elo": 1595.6,
-    "attack": 0.7436,
-    "defense": 0.6611,
-    "form": 0.5414,
+    "elo": 1618.7,
+    "attack": 0.847,
+    "defense": 0.667,
+    "form": 0.679,
     "injury": 0.0,
     "rest_days": 3
   },
