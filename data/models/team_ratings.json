@@ -656,10 +656,10 @@
     "rest_days": 3
   },
   "AC米兰": {
-    "elo": 1700.3,
-    "attack": 0.7715,
-    "defense": 0.6136,
-    "form": 0.1728,
+    "elo": 1697.1,
+    "attack": 0.7315,
+    "defense": 0.589,
+    "form": 0.121,
     "injury": 0.0,
     "rest_days": 3
   },
@@ -2344,10 +2344,10 @@
     "rest_days": 3
   },
   "萨索洛": {
-    "elo": 1564.5,
-    "attack": 0.7383,
-    "defense": 0.8517,
-    "form": -0.131,
+    "elo": 1567.7,
+    "attack": 0.7015,
+    "defense": 0.8038,
+    "form": -0.0917,
     "injury": 0.0,
     "rest_days": 3
   },
