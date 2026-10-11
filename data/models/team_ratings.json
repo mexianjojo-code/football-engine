@@ -600,10 +600,10 @@
     "rest_days": 3
   },
   "利物浦": {
-    "elo": 1862.7,
-    "attack": 0.6623,
-    "defense": 0.4906,
-    "form": 0.6849,
+    "elo": 1811.6,
+    "attack": 0.5977,
+    "defense": 0.5483,
+    "form": 0.1794,
     "injury": 0.0,
     "rest_days": 3
   },
@@ -2080,10 +2080,10 @@
     "rest_days": 3
   },
   "弗赖堡": {
-    "elo": 1759.3,
-    "attack": 1.1279,
-    "defense": 0.8321,
-    "form": 0.4171,
+    "elo": 1764.2,
+    "attack": 1.0883,
+    "defense": 0.7862,
+    "form": 0.592,
     "injury": 0.0,
     "rest_days": 3
   },
@@ -6360,10 +6360,10 @@
     "rest_days": 3
   },
   "曼城": {
-    "elo": 1846.6,
-    "attack": 1.1364,
-    "defense": 0.636,
-    "form": 0.8951,
+    "elo": 1897.7,
+    "attack": 1.1312,
+    "defense": 0.574,
+    "form": 0.9266,
     "injury": 0.0,
     "rest_days": 3
   },
@@ -10472,10 +10472,10 @@
     "rest_days": 3
   },
   "沙尔克": {
-    "elo": 1525.5,
-    "attack": 0.7586,
-    "defense": 0.7728,
-    "form": 0.1071,
+    "elo": 1520.6,
+    "attack": 0.7198,
+    "defense": 0.7678,
+    "form": -0.225,
     "injury": 0.0,
     "rest_days": 3
   },
