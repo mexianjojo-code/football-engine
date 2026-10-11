@@ -1056,10 +1056,10 @@
     "rest_days": 3
   },
   "莫尔德": {
-    "elo": 1737.4,
-    "attack": 1.2008,
-    "defense": 0.735,
-    "form": 0.6676,
+    "elo": 1729.5,
+    "attack": 1.1541,
+    "defense": 0.7337,
+    "form": 0.4673,
     "injury": 0.0,
     "rest_days": 3
   },
@@ -10776,10 +10776,10 @@
     "rest_days": 3
   },
   "利勒斯特罗姆": {
-    "elo": 1484.7,
-    "attack": 0.9025,
-    "defense": 1.0081,
-    "form": -0.3,
+    "elo": 1492.6,
+    "attack": 0.8849,
+    "defense": 0.9802,
+    "form": -0.21,
     "injury": 0.0,
     "rest_days": 3
   },
