@@ -43,5 +43,50 @@
     "away_team": "瓦勒伦加",
     "half_home_score": 1,
     "half_away_score": 1
+  },
+  {
+    "match_id": "401879267",
+    "home_score": 4,
+    "away_score": 1,
+    "home_team": "Coventry City",
+    "away_team": "Newcastle United",
+    "half_home_score": 0,
+    "half_away_score": 0
+  },
+  {
+    "match_id": "401874763",
+    "home_score": 2,
+    "away_score": 1,
+    "home_team": "Torino",
+    "away_team": "Udinese",
+    "half_home_score": 0,
+    "half_away_score": 0
+  },
+  {
+    "match_id": "3744899",
+    "home_score": 2,
+    "away_score": 1,
+    "home_team": "都灵",
+    "away_team": "乌迪内斯",
+    "half_home_score": 1,
+    "half_away_score": 1
+  },
+  {
+    "match_id": "3749486",
+    "home_score": 4,
+    "away_score": 2,
+    "home_team": "第戎",
+    "away_team": "梅斯",
+    "half_home_score": 3,
+    "half_away_score": 1
+  },
+  {
+    "match_id": "3755087",
+    "home_score": 4,
+    "away_score": 1,
+    "home_team": "考文垂",
+    "away_team": "纽卡斯尔联",
+    "half_home_score": 1,
+    "half_away_score": 0
   }
 ]
