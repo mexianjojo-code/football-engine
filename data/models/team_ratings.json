@@ -392,18 +392,18 @@
     "rest_days": 3
   },
   "博塔弗戈": {
-    "elo": 1629.5,
-    "attack": 0.3662,
-    "defense": 0.4333,
-    "form": -0.4127,
+    "elo": 1625.0,
+    "attack": 0.3657,
+    "defense": 0.4262,
+    "form": -0.2889,
     "injury": 0.0,
     "rest_days": 3
   },
   "科里蒂巴": {
-    "elo": 1464.6,
-    "attack": 0.3274,
-    "defense": 0.6476,
-    "form": -0.4219,
+    "elo": 1469.1,
+    "attack": 0.3307,
+    "defense": 0.6196,
+    "form": -0.2953,
     "injury": 0.0,
     "rest_days": 3
   },
@@ -1488,10 +1488,10 @@
     "rest_days": 3
   },
   "塞维利亚": {
-    "elo": 1581.7,
-    "attack": 0.6481,
-    "defense": 0.7913,
-    "form": 0.0472,
+    "elo": 1583.3,
+    "attack": 0.6905,
+    "defense": 0.8197,
+    "form": 0.033,
     "injury": 0.0,
     "rest_days": 3
   },
@@ -2256,10 +2256,10 @@
     "rest_days": 3
   },
   "莱万特": {
-    "elo": 1551.7,
-    "attack": 0.7661,
-    "defense": 0.983,
-    "form": -0.4411,
+    "elo": 1550.1,
+    "attack": 0.797,
+    "defense": 0.9927,
+    "form": -0.3088,
     "injury": 0.0,
     "rest_days": 3
   },
@@ -5920,10 +5920,10 @@
     "rest_days": 3
   },
   "法马利康": {
-    "elo": 1565.8,
-    "attack": 0.6437,
-    "defense": 0.5777,
-    "form": -0.1725,
+    "elo": 1506.3,
+    "attack": 0.6161,
+    "defense": 0.6621,
+    "form": -0.4207,
     "injury": 0.0,
     "rest_days": 3
   },
@@ -6200,10 +6200,10 @@
     "rest_days": 3
   },
   "阿尔维卡": {
-    "elo": 1471.4,
-    "attack": 0.8022,
-    "defense": 0.9738,
-    "form": -0.2978,
+    "elo": 1530.9,
+    "attack": 0.8647,
+    "defense": 0.914,
+    "form": 0.0915,
     "injury": 0.0,
     "rest_days": 3
   },
@@ -11076,6 +11076,22 @@
     "attack": 0.9377,
     "defense": 0.9729,
     "form": -0.3,
+    "injury": 0.0,
+    "rest_days": 3
+  },
+  "Levante": {
+    "elo": 1497.0,
+    "attack": 1.0081,
+    "defense": 1.0081,
+    "form": 0.0,
+    "injury": 0.0,
+    "rest_days": 3
+  },
+  "Sevilla": {
+    "elo": 1503.0,
+    "attack": 1.0081,
+    "defense": 1.0081,
+    "form": 0.0,
     "injury": 0.0,
     "rest_days": 3
   }
