@@ -1352,10 +1352,10 @@
     "rest_days": 3
   },
   "朗斯": {
-    "elo": 1778.1,
-    "attack": 1.1026,
-    "defense": 0.7403,
-    "form": 0.1486,
+    "elo": 1733.6,
+    "attack": 0.9951,
+    "defense": 0.7385,
+    "form": -0.196,
     "injury": 0.0,
     "rest_days": 3
   },
@@ -9568,10 +9568,10 @@
     "rest_days": 3
   },
   "葡萄牙体育": {
-    "elo": 1630.0,
-    "attack": 0.9444,
-    "defense": 0.7079,
-    "form": 0.5253,
+    "elo": 1674.5,
+    "attack": 0.9227,
+    "defense": 0.6389,
+    "form": 0.6677,
     "injury": 0.0,
     "rest_days": 3
   },
