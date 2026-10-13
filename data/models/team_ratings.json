@@ -8000,10 +8000,10 @@
     "rest_days": 3
   },
   "瓦勒伦加": {
-    "elo": 1602.1,
-    "attack": 0.9323,
-    "defense": 0.8721,
-    "form": -0.3102,
+    "elo": 1580.9,
+    "attack": 0.8766,
+    "defense": 0.8574,
+    "form": -0.5171,
     "injury": 0.0,
     "rest_days": 3
   },
@@ -8016,10 +8016,10 @@
     "rest_days": 3
   },
   "奥斯KFUM": {
-    "elo": 1419.8,
-    "attack": 0.8884,
-    "defense": 1.0723,
-    "form": -0.2319,
+    "elo": 1441.0,
+    "attack": 0.8722,
+    "defense": 1.0029,
+    "form": 0.1377,
     "injury": 0.0,
     "rest_days": 3
   },
@@ -9952,10 +9952,10 @@
     "rest_days": 3
   },
   "吉达国民": {
-    "elo": 1519.5,
-    "attack": 0.8168,
-    "defense": 0.8292,
-    "form": 0.1221,
+    "elo": 1552.1,
+    "attack": 0.8427,
+    "defense": 0.7835,
+    "form": 0.3855,
     "injury": 0.0,
     "rest_days": 3
   },
@@ -10272,10 +10272,10 @@
     "rest_days": 3
   },
   "考文垂": {
-    "elo": 1554.4,
-    "attack": 0.7415,
-    "defense": 0.774,
-    "form": 0.1377,
+    "elo": 1583.3,
+    "attack": 0.8099,
+    "defense": 0.7337,
+    "form": 0.3964,
     "injury": 0.0,
     "rest_days": 3
   },
@@ -10352,10 +10352,10 @@
     "rest_days": 3
   },
   "纽卡斯尔": {
-    "elo": 1509.8,
-    "attack": 0.9729,
-    "defense": 0.9729,
-    "form": 0.0,
+    "elo": 1480.9,
+    "attack": 0.9132,
+    "defense": 1.0188,
+    "form": -0.3,
     "injury": 0.0,
     "rest_days": 3
   },
@@ -11092,6 +11092,14 @@
     "attack": 1.0081,
     "defense": 1.0081,
     "form": 0.0,
+    "injury": 0.0,
+    "rest_days": 3
+  },
+  "迪拜连接": {
+    "elo": 1467.4,
+    "attack": 0.9377,
+    "defense": 1.0081,
+    "form": -0.3,
     "injury": 0.0,
     "rest_days": 3
   }
